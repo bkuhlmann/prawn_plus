@@ -40,7 +40,7 @@ The show.html.erb could have a link to the PDF download. Example:
 The show.pdf.prawn file would contain the Prawn syntax for crafting the PDF. A simple example
 might look like this:
 
-  pdf.text = "Hello, I'm a PDF!"
+  pdf.text "Hello, I'm a PDF!"
 
 You could also render a more complex PDF with tabular information, for example:
 
