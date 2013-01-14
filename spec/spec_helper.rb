@@ -15,5 +15,8 @@ ActiveRecord::Base.establish_connection adapter: "sqlite3", database: ":memory:"
 
 # Configure Rspec.
 RSpec.configure do |config|
+  config.filter_run focus: true
+  config.run_all_when_everything_filtered = true
+
   Capybara.app = Dummy::Application
 end
