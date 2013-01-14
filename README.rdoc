@@ -1,5 +1,6 @@
 = Overview
 
+{<img src="https://badge.fury.io/rb/prawn_plus.png" alt="Gem Version" />}[http://badge.fury.io/rb/prawn_plus]
 {<img src="https://secure.travis-ci.org/bkuhlmann/prawn_plus.png" />}[http://travis-ci.org/bkuhlmann/prawn_plus]
 
 = Features
