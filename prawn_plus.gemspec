@@ -12,7 +12,6 @@ Gem::Specification.new do |s|
   s.summary								= "Enhances default Prawn PDF functionality."
   s.description						= "Enhances default Prawn PDF functionality (which includes PDF template handling/rendering)."
 	s.license								= "MIT"
-	s.post_install_message	= "(W): www.redalchemist.com. (T): @ralchemist."
 
 	s.required_ruby_version = "~> 1.9.0"
 	s.add_dependency "rails", "~> 3.2"
