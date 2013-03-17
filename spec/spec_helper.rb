@@ -10,6 +10,9 @@ ENV["RAILS_ROOT"] ||= File.dirname(__FILE__) + "/dummy"
 require "capybara/rspec"
 require "capybara/rails"
 
+# Load Pry for debugging.
+require "pry"
+
 # Load SQLite database in memory.
 ActiveRecord::Base.establish_connection adapter: "sqlite3", database: ":memory:"
 
