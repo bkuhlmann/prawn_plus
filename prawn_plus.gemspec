@@ -24,7 +24,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency "capybara"
-  s.add_development_dependency("rb-fsevent") if RUBY_PLATFORM =~ /darwin/i
+  s.add_development_dependency "rb-fsevent" # Guard file events for OSX.
+  s.add_development_dependency "rb-inotify" # Guard file events for Linux.
   s.add_development_dependency "guard-rspec"
 	
   s.files            = Dir["lib/**/*", "vendor/**/*"]
