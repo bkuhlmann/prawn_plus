@@ -12,8 +12,9 @@
 
 = Requirements
 
-1. {Ruby on Rails}[http://rubyonrails.org].
-2. Prawn[https://github.com/prawnpdf/prawn].
+1. {Ruby 2.0.x}[http://www.ruby-lang.org].
+2. {Ruby on Rails 3.2.x}[http://rubyonrails.org].
+3. Prawn[https://github.com/prawnpdf/prawn].
 
 = Setup
 
