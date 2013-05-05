@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
 	s.add_dependency "prawn", "~> 0.12"
   s.add_development_dependency "rake"
   s.add_development_dependency "pry"
-  s.add_development_dependency "pry-nav"
+  s.add_development_dependency "pry-debugger"
   s.add_development_dependency "pry-stack_explorer"
   s.add_development_dependency "pry-vterm_aliases"
   s.add_development_dependency "sqlite3"
@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rb-fsevent" # Guard file events for OSX.
   s.add_development_dependency "rb-inotify" # Guard file events for Linux.
   s.add_development_dependency "guard-rspec"
-	
+
   s.files            = Dir["lib/**/*", "vendor/**/*"]
   s.extra_rdoc_files = Dir["README*", "CHANGELOG*", "LICENSE*"]
   s.require_paths    = ["lib"]
