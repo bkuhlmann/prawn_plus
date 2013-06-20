@@ -1,4 +1,4 @@
-= v2.0.0
+# v2.0.0
 
 * Upgraded to Ruby 2.0.0.
 * Converted/detailed the CONTRIBUTING guidelines per GitHub requirements.
@@ -10,6 +10,6 @@
 * Added 'tmp' directory to .gitignore.
 * Cleaned up requirement path syntax.
 
-= v1.0.0
+# v1.0.0
 
 * Initial version.
