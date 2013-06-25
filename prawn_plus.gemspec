@@ -13,6 +13,9 @@ Gem::Specification.new do |s|
   s.description						= "Enhances default Prawn PDF functionality (which includes PDF template handling/rendering)."
 	s.license								= "MIT"
 
+  s.signing_key = File.expand_path("~/.ssh/gem-private.pem")
+  s.cert_chain  = ["gem-public.pem"]
+
 	s.required_ruby_version = "~> 2.0.0"
 	s.add_dependency "rails", "~> 3.2"
 	s.add_dependency "prawn", "~> 0.12"

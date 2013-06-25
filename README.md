@@ -18,7 +18,12 @@
 
 # Setup
 
-Type the following from the command line to install:
+Type the following from the command line to securely install (recommended):
+
+    gem cert --add <(curl -Ls https://raw.github.com/bkuhlmann/prawn_plus/master/gem-public.pem)
+    gem install prawn_plus -P HighSecurity
+
+...or type the following to insecurely install (not recommended):
 
     gem install prawn_plus
 
