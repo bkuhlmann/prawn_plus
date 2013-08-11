@@ -2,7 +2,7 @@ language: ruby
 rvm:
   - 2.0.0
 gemfile:
-  - gemfiles/rails-3.2.x.gemfile
+  - gemfiles/rails-4.0.x.gemfile
 script: bundle exec rspec spec
 notifications:
   email: false
