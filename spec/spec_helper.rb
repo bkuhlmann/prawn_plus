@@ -1,5 +1,13 @@
 # Setup Bundler
 require "bundler/setup"
+require "pry"
+require "pry-byebug"
+require "pry-remote"
+require "pry-rescue"
+require "pry-stack_explorer"
+require "pry-vterm_aliases"
+require "pry-git"
+require "pry-doc"
 
 # Load Dummy Rails application.
 ENV["RAILS_ENV"] ||= "test"
