@@ -1,3 +1,15 @@
+# v3.1.0
+
+* Fixed Ruby Gem certificate requirements for package building.
+* Fixed RSpec deprecation warnings for treating metadata symbol keys as true values.
+* Fixed Travis CI builds by adding a before_install script for the minitest gem.
+* Removed UTF-8 encoding definitions - This is the default in Ruby 2.x.x.
+* Removed .ruby-version from .gitignore.
+* Removed Gemfile.lock from .gitignore.
+* Updated public gem certificate to be referenced from a central server.
+* Updated to Ruby 2.1.0.
+* Added Pry plugin requirements to RSpec spec helper.
+
 # v3.0.0
 
 * Upgraded to Rails 4.0.0.

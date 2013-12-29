@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    prawn_plus (3.0.0)
+    prawn_plus (3.1.0)
       prawn (~> 0.12)
       rails (~> 4.0)
 
