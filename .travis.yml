@@ -4,6 +4,7 @@ rvm:
   - 2.1.0
 gemfile:
   - gemfiles/rails-4.0.x.gemfile
+before_install: gem install minitest -v "~> 4.7"
 script: bundle exec rspec spec
 notifications:
   email: false
