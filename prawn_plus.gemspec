@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform							= Gem::Platform::RUBY
   s.author								= "Brooke Kuhlmann"
   s.email									= "brooke@redalchemist.com"
-  s.homepage							= "http://www.redalchemist.com"
+  s.homepage							= "https://github.com/bkuhlmann/prawn_plus"
   s.summary								= "Enhances default Prawn PDF functionality."
   s.description						= "Enhances default Prawn PDF functionality (which includes PDF template handling/rendering)."
 	s.license								= "MIT"
