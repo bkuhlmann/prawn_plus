@@ -4,6 +4,7 @@
 [![Code Climate GPA](https://codeclimate.com/github/bkuhlmann/prawn_plus.png)](https://codeclimate.com/github/bkuhlmann/prawn_plus)
 [![Gemnasium Status](https://gemnasium.com/bkuhlmann/prawn_plus.png)](https://gemnasium.com/bkuhlmann/prawn_plus)
 [![Travis CI Status](https://secure.travis-ci.org/bkuhlmann/prawn_plus.png)](http://travis-ci.org/bkuhlmann/prawn_plus)
+[![Coverage Status](https://coveralls.io/repos/bkuhlmann/prawn_plus/badge.png)](https://coveralls.io/r/bkuhlmann/prawn_plus)
 
 # Features
 
