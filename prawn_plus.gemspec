@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency "activerecord-jdbcsqlite3-adapter"
       s.add_development_dependency "pry-nav"
     when "rbx"
-      s.add_development_dependency "sqlite3"
+      s.add_development_dependency "sqlite3", "1.3.8"
       s.add_development_dependency "pry-nav"
       s.add_development_dependency "pry-stack_explorer"
     else
