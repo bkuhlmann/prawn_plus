@@ -46,7 +46,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "pry"
   s.add_development_dependency "pry-remote"
   s.add_development_dependency "pry-rescue"
-  s.add_development_dependency "pry-vterm_aliases"
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency "capybara"
   s.add_development_dependency "rb-fsevent" # Guard file events for OSX.

@@ -3,7 +3,6 @@ require "bundler/setup"
 require "pry"
 require "pry-remote"
 require "pry-rescue"
-require "pry-vterm_aliases"
 require "coveralls"
 
 case Gem.ruby_engine
