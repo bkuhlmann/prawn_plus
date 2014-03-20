@@ -41,7 +41,7 @@ Gem::Specification.new do |s|
   end
 
   s.add_dependency "rails", "~> 4.0"
-  s.add_dependency "prawn", "~> 0.14"
+  s.add_dependency "prawn", "~> 1.0"
   s.add_development_dependency "rake", "~> 10.0"
   s.add_development_dependency "pry"
   s.add_development_dependency "pry-remote"
