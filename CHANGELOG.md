@@ -1,3 +1,12 @@
+# v4.0.0
+
+* Updated to Prawn 1.0.0.
+* Updated to MRI 2.1.1.
+* Updated to Rubinius 2.x.x support.
+* Updated gemspec to lock the sqlite3 gem at v1.3.8 for Rubinius.
+* Added Gemnasium support.
+* Added Coveralls support.
+
 # v3.2.0
 
 * Updated gemspec homepage URL to use GitHub project URL.

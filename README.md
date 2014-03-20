@@ -40,8 +40,8 @@ Add the following to your Gemfile:
 
 ## Views
 
-Within your views you can craft Prawn templates using Ruby code. For example, assuming there are document resources, then
-the following structure might exist:
+Within your views you can craft Prawn templates using Ruby code. For example, assuming there are document resources,
+then the following structure might exist:
 
     /views/documents/show.html.erb
     /views/documents/show.pdf.prawn

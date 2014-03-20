@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    prawn_plus (3.2.0)
+    prawn_plus (4.0.0)
       prawn (~> 1.0)
       rails (~> 4.0)
 
@@ -33,7 +33,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
-    atomic (1.1.15)
+    atomic (1.1.16)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.1.4)
@@ -91,7 +91,7 @@ GEM
     mime-types (1.25.1)
     mini_portile (0.5.2)
     minitest (4.7.5)
-    multi_json (1.9.0)
+    multi_json (1.9.2)
     nio4r (1.0.0)
     nokogiri (1.6.1)
       mini_portile (~> 0.5.0)
