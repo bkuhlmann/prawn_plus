@@ -35,5 +35,8 @@ RSpec.configure do |config|
   config.run_all_when_everything_filtered = true
   config.filter_run focus: true
 
+  config.before(:all) { GC.disable }
+  config.after(:all) { GC.enable }
+
   Capybara.app = Dummy::Application
 end
