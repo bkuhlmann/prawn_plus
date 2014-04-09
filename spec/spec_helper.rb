@@ -1,9 +1,10 @@
 # Setup Bundler
 require "bundler/setup"
+require "coveralls"
+Coveralls.wear!
 require "pry"
 require "pry-remote"
 require "pry-rescue"
-require "coveralls"
 
 case Gem.ruby_engine
   when "ruby"
@@ -27,8 +28,6 @@ require "capybara/rails"
 
 # Load SQLite database in memory.
 ActiveRecord::Base.establish_connection adapter: "sqlite3", database: ":memory:"
-
-Coveralls.wear!
 
 # Configure Rspec.
 RSpec.configure do |config|
