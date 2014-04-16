@@ -1,3 +1,8 @@
+# v4.1.0
+
+* Updated RSpec helper to disable GC for all specs in order to improve performance.
+* Added Rails 4.1.x support.
+
 # v4.0.0
 
 * Updated to Prawn 1.0.0.
