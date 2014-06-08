@@ -1,7 +1,7 @@
 # Setup Bundler
 require "bundler/setup"
-require "coveralls"
-Coveralls.wear!
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
 require "pry"
 require "pry-remote"
 require "pry-rescue"
