@@ -5,6 +5,7 @@
 [![Gemnasium Status](https://gemnasium.com/bkuhlmann/prawn_plus.png)](https://gemnasium.com/bkuhlmann/prawn_plus)
 [![Travis CI Status](https://secure.travis-ci.org/bkuhlmann/prawn_plus.png)](http://travis-ci.org/bkuhlmann/prawn_plus)
 [![Coverage Status](https://coveralls.io/repos/bkuhlmann/prawn_plus/badge.png)](https://coveralls.io/r/bkuhlmann/prawn_plus)
+[![Gittip](http://img.shields.io/gittip/bkuhlmann.svg)](https://www.gittip.com/bkuhlmann)
 
 # Features
 
