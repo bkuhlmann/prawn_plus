@@ -108,11 +108,9 @@ That's it!
 
 # Tests
 
-To test, do the following:
+To test, run:
 
-0. cd to the gem root.
-0. bundle install
-0. bundle exec rspec spec
+    bundle exec rspec spec
 
 # Versioning
 
