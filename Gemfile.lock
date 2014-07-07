@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    prawn_plus (4.1.0)
-      prawn (~> 1.0)
+    prawn_plus (4.2.0)
+      prawn (~> 1.1)
       rails (~> 4.0)
 
 GEM

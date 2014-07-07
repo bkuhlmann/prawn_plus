@@ -1,3 +1,10 @@
+# v4.2.0
+
+* Fixed bug with Prawn table support missing (not being required).
+* Added Code Climate test coverage support.
+* Updated to Ruby 2.1.2.
+* Updated gem-public.pem for gem install certificate chain.
+
 # v4.1.0
 
 * Updated RSpec helper to disable GC for all specs in order to improve performance.
