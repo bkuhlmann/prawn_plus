@@ -8,7 +8,6 @@ rvm:
 - jruby
 - rbx-2
 gemfile:
-- gemfiles/rails-4.0.x.gemfile
 - gemfiles/rails-4.1.x.gemfile
 before_install:
 - gem install minitest -v "~> 4.7"
