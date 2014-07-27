@@ -1,3 +1,9 @@
+# v5.0.0
+
+* Removed Rails 4.0.x support.
+* Updated to Prawn 1.2.x (see [CHANGELOG](https://github.com/prawnpdf/prawn/wiki/CHANGELOG#prawn-121--20140727) for
+  details) and added prawn-table support.
+
 # v4.2.0
 
 * Fixed bug with Prawn table support missing (not being required).

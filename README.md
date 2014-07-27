@@ -47,12 +47,12 @@ Add the following to your Gemfile:
 Within your views you can craft Prawn templates using Ruby code. For example, assuming there are document resources,
 then the following structure might exist:
 
-    /views/documents/show.html.erb
+    /views/documents/show.html.slim
     /views/documents/show.pdf.prawn
 
-The show.html.erb could have a link to the PDF download. Example:
+The show.html.slim could have a link to the PDF download. Example:
 
-    <%= link_to "PDF Download", action: "show", id: @document.id, format: "pdf" %>
+    = link_to "PDF Download", action: "show", id: @document.id, format: "pdf"
 
 The show.pdf.prawn file would contain the Prawn syntax for crafting the PDF. A simple example
 might look like this:
