@@ -2,7 +2,8 @@ PATH
   remote: .
   specs:
     prawn_plus (4.2.0)
-      prawn (~> 1.1)
+      prawn (~> 1.2)
+      prawn-table (~> 0.1)
       rails (~> 4.0)
 
 GEM
@@ -93,6 +94,7 @@ GEM
     prawn (1.2.1)
       pdf-core (~> 0.2.5)
       ttfunk (~> 1.2.0)
+    prawn-table (0.1.0)
     pry (0.10.0)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
