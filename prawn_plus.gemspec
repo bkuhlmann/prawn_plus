@@ -11,15 +11,15 @@ def add_security_key specification, method, files
 end
 
 Gem::Specification.new do |s|
-  s.name									= "prawn_plus"
-  s.version								= PrawnPlus::VERSION
-  s.platform							= Gem::Platform::RUBY
-  s.author								= "Brooke Kuhlmann"
-  s.email									= "brooke@redalchemist.com"
-  s.homepage							= "https://github.com/bkuhlmann/prawn_plus"
-  s.summary								= "Enhances default Prawn PDF functionality."
-  s.description						= "Enhances default Prawn PDF functionality (which includes PDF template handling/rendering)."
-	s.license								= "MIT"
+  s.name                  = "prawn_plus"
+  s.version               = PrawnPlus::VERSION
+  s.platform              = Gem::Platform::RUBY
+  s.author                = "Brooke Kuhlmann"
+  s.email                 = "brooke@redalchemist.com"
+  s.homepage              = "https://github.com/bkuhlmann/prawn_plus"
+  s.summary               = "Enhances default Prawn PDF functionality."
+  s.description           = "Enhances default Prawn PDF functionality (which includes PDF template handling/rendering)."
+  s.license               = "MIT"
 
   add_security_key s, "signing_key", File.expand_path("~/.ssh/gem-private.pem")
   add_security_key s, "cert_chain", [File.expand_path("~/.ssh/gem-public.pem")]
