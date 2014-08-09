@@ -50,7 +50,7 @@ GEM
       xpath (~> 2.0)
     celluloid (0.15.2)
       timers (~> 1.1.0)
-    codeclimate-test-reporter (0.3.0)
+    codeclimate-test-reporter (0.4.0)
       simplecov (>= 0.7.1, < 1.0.0)
     coderay (1.1.0)
     columnize (0.8.9)
@@ -177,7 +177,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     ttfunk (1.2.0)
-    tzinfo (1.2.1)
+    tzinfo (1.2.2)
       thread_safe (~> 0.1)
     xpath (2.0.0)
       nokogiri (~> 1.3)
