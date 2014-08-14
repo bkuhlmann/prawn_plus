@@ -169,6 +169,7 @@ GEM
       activesupport (>= 3.0)
       sprockets (~> 2.8)
     sqlite3 (1.3.9)
+    terminal-notifier-guard (1.5.3)
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
@@ -199,3 +200,4 @@ DEPENDENCIES
   rb-fsevent
   rspec-rails
   sqlite3
+  terminal-notifier-guard

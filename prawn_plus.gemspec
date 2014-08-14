@@ -1,16 +1,16 @@
 $:.push File.expand_path("../lib", __FILE__)
 require "prawn_plus/version"
 
-Gem::Specification.new do |s|
-  s.name                  = "prawn_plus"
-  s.version               = PrawnPlus::VERSION
-  s.platform              = Gem::Platform::RUBY
-  s.authors               = ["Brooke Kuhlmann"]
-  s.email                 = ["brooke@redalchemist.com"]
-  s.homepage              = "https://github.com/bkuhlmann/prawn_plus"
-  s.summary               = "Enhances default Prawn PDF functionality."
-  s.description           = "Enhances default Prawn PDF functionality (which includes PDF template handling/rendering)."
-  s.license               = "MIT"
+Gem::Specification.new do |spec|
+  spec.name                  = "prawn_plus"
+  spec.version               = PrawnPlus::VERSION
+  spec.platform              = Gem::Platform::RUBY
+  spec.authors               = ["Brooke Kuhlmann"]
+  spec.email                 = ["brooke@redalchemist.com"]
+  spec.homepage              = "https://github.com/bkuhlmann/prawn_plus"
+  spec.summary               = "Enhances default Prawn PDF functionality."
+  spec.description           = "Enhances default Prawn PDF functionality (which includes PDF template handling/rendering)."
+  spec.license               = "MIT"
 
   unless ENV["CI"] == "true"
     spec.signing_key = File.expand_path("~/.ssh/gem-private.pem")
@@ -19,34 +19,35 @@ Gem::Specification.new do |s|
 
   case Gem.ruby_engine
     when "ruby"
-      s.add_development_dependency "sqlite3"
-      s.add_development_dependency "pry-byebug"
-      s.add_development_dependency "pry-stack_explorer"
+      spec.add_development_dependency "sqlite3"
+      spec.add_development_dependency "pry-byebug"
+      spec.add_development_dependency "pry-stack_explorer"
     when "jruby"
-      s.add_development_dependency "activerecord-jdbcsqlite3-adapter"
-      s.add_development_dependency "pry-nav"
+      spec.add_development_dependency "activerecord-jdbcsqlite3-adapter"
+      spec.add_development_dependency "pry-nav"
     when "rbx"
-      s.add_development_dependency "sqlite3", "1.3.8"
-      s.add_development_dependency "pry-nav"
-      s.add_development_dependency "pry-stack_explorer"
+      spec.add_development_dependency "sqlite3", "1.3.8"
+      spec.add_development_dependency "pry-nav"
+      spec.add_development_dependency "pry-stack_explorer"
     else
       raise RuntimeError.new("Unsupported Ruby Engine!")
   end
 
-  s.add_dependency "rails", "~> 4.0"
-  s.add_dependency "prawn", "~> 1.2"
-  s.add_dependency "prawn-table", "~> 0.1"
-  s.add_development_dependency "rake", "~> 10.0"
-  s.add_development_dependency "pry"
-  s.add_development_dependency "pry-remote"
-  s.add_development_dependency "pry-rescue"
-  s.add_development_dependency "rspec-rails"
-  s.add_development_dependency "capybara"
-  s.add_development_dependency "rb-fsevent" # Guard file events for OSX.
-  s.add_development_dependency "guard-rspec"
-  s.add_development_dependency "codeclimate-test-reporter"
+  spec.add_dependency "rails", "~> 4.0"
+  spec.add_dependency "prawn", "~> 1.2"
+  spec.add_dependency "prawn-table", "~> 0.1"
+  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "pry-remote"
+  spec.add_development_dependency "pry-rescue"
+  spec.add_development_dependency "rspec-rails"
+  spec.add_development_dependency "capybara"
+  spec.add_development_dependency "rb-fsevent" # Guard file events for OSX.
+  spec.add_development_dependency "guard-rspec"
+  spec.add_development_dependency "terminal-notifier-guard"
+  spec.add_development_dependency "codeclimate-test-reporter"
 
-  s.files            = Dir["lib/**/*", "vendor/**/*"]
-  s.extra_rdoc_files = Dir["README*", "LICENSE*"]
-  s.require_paths    = ["lib"]
+  spec.files            = Dir["lib/**/*", "vendor/**/*"]
+  spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
+  spec.require_paths    = ["lib"]
 end
