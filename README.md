@@ -9,16 +9,16 @@
 
 # Features
 
-* Loads the [Prawn](https://github.com/prawnpdf/prawn) gem by default (no Gemfile entry necessary).
-* Registers PDF as a MIME type.
-* Registers a template handler for rendering ".prawn" template view files.
+- Loads the [Prawn](https://github.com/prawnpdf/prawn) gem by default (no Gemfile entry necessary).
+- Registers PDF as a MIME type.
+- Registers a template handler for rendering ".prawn" template view files.
 
 # Requirements
 
 0. Any of the following Ruby VMs:
-    * [MRI 2.x.x](http://www.ruby-lang.org)
-    * [JRuby 1.x.x](http://jruby.org)
-    * [Rubinius 2.x.x](http://rubini.us)
+    - [MRI 2.x.x](http://www.ruby-lang.org)
+    - [JRuby 1.x.x](http://jruby.org)
+    - [Rubinius 2.x.x](http://rubini.us)
 0. [Ruby on Rails 4.x.x](http://rubyonrails.org).
 0. [Prawn](https://github.com/prawnpdf/prawn).
 
@@ -116,9 +116,9 @@ To test, run:
 
 Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
 
-* Patch (x.y.Z) - Incremented for small, backwards compatible bug fixes.
-* Minor (x.Y.z) - Incremented for new, backwards compatible public API enhancements and/or bug fixes.
-* Major (X.y.z) - Incremented for any backwards incompatible public API changes.
+- Patch (x.y.Z) - Incremented for small, backwards compatible bug fixes.
+- Minor (x.Y.z) - Incremented for new, backwards compatible public API enhancements and/or bug fixes.
+- Major (X.y.z) - Incremented for any backwards incompatible public API changes.
 
 # Contributions
 
