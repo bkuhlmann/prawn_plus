@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.version               = PrawnPlus::VERSION
   spec.platform              = Gem::Platform::RUBY
   spec.authors               = ["Brooke Kuhlmann"]
-  spec.email                 = ["brooke@redalchemist.com"]
+  spec.email                 = ["bkuhlmann@alchemists.io"]
   spec.homepage              = "https://github.com/bkuhlmann/prawn_plus"
   spec.summary               = "Enhances default Prawn PDF functionality."
   spec.description           = "Enhances default Prawn PDF functionality (which includes PDF template handling/rendering)."
