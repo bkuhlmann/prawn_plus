@@ -26,7 +26,7 @@
 
 For a secure install, type the following from the command line (recommended):
 
-    gem cert --add <(curl -Ls http://www.alchemists.io/gem-public.pem)
+    gem cert --add <(curl -Ls https://www.alchemists.io/gem-public.pem)
     gem install prawn_plus --trust-policy MediumSecurity
 
 NOTE: A HighSecurity trust policy would be best but MediumSecurity enables signed gem verification while
@@ -126,11 +126,11 @@ Read [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 # Credits
 
-Developed by [Brooke Kuhlmann](http://www.alchemists.io) at [Alchemists](http://www.alchemists.io)
+Developed by [Brooke Kuhlmann](https://www.alchemists.io) at [Alchemists](https://www.alchemists.io)
 
 # License
 
-Copyright (c) 2012 [Alchemists](http://www.alchemists.io).
+Copyright (c) 2012 [Alchemists](https://www.alchemists.io).
 Read the [LICENSE](LICENSE.md) for details.
 
 # History
