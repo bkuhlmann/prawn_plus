@@ -25,10 +25,6 @@ Gem::Specification.new do |spec|
     when "jruby"
       spec.add_development_dependency "activerecord-jdbcsqlite3-adapter"
       spec.add_development_dependency "pry-nav"
-    when "rbx"
-      spec.add_development_dependency "sqlite3", "1.3.8"
-      spec.add_development_dependency "pry-nav"
-      spec.add_development_dependency "pry-stack_explorer"
     else
       raise RuntimeError.new("Unsupported Ruby Engine!")
   end
