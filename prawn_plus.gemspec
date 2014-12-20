@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
       raise RuntimeError.new("Unsupported Ruby Engine!")
   end
 
-  spec.add_dependency "rails", "~> 4.0"
+  spec.add_dependency "rails", "~> 4.1"
   spec.add_dependency "prawn", "~> 1.2"
   spec.add_dependency "prawn-table", "~> 0.1"
   spec.add_development_dependency "rake", "~> 10.0"
