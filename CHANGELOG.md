@@ -1,3 +1,15 @@
+# v6.0.0 (2015-01-01)
+
+- Removed Ruby 2.0.0 support.
+- Removed Rubinius support.
+- Updated gemspec to add security keys unless in a CI environment.
+- Updated Code Climate to run only if environment variable is present.
+- Updated gemspec to use RUBY_GEM_SECURITY env var for gem certs.
+- Added Ruby 2.2.0 support.
+- Added Rails 4.2.x support.
+- Added JRuby 2.x.x syntax support for Travis CI builds.
+- Refactored common RSpec configurations to RSpec support/kit folder.
+
 # v5.0.0 (2014-07-27)
 
 - Removed Rails 4.0.x support.
