@@ -1,3 +1,7 @@
+# v6.1.0 (2015-03-01)
+
+- Updated to Prawn 2.0.0.
+
 # v6.0.0 (2015-01-01)
 
 - Removed Ruby 2.0.0 support.

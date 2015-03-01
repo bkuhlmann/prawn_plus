@@ -49,11 +49,11 @@ then the following structure might exist:
     /views/documents/show.html.slim
     /views/documents/show.pdf.prawn
 
-The show.html.slim could have a link to the PDF download. Example:
+The `show.html.slim` could have a link to the PDF download. Example:
 
     = link_to "PDF Download", action: "show", id: @document.id, format: "pdf"
 
-The show.pdf.prawn file would contain the Prawn syntax for crafting the PDF. A simple example
+The `show.pdf.prawn` file would contain the Prawn syntax for crafting the PDF. A simple example
 might look like this:
 
     pdf.text "Hello, I'm a PDF!"
@@ -88,13 +88,12 @@ You could also render a more complex PDF with tabular information, for example:
 
 [![Complex Example](https://github.com/bkuhlmann/prawn_plus/raw/master/doc/examples/complex.png)](https://github.com/bkuhlmann/prawn_plus)
 
-NOTE: The _pdf_ object must always be referenced when making using of the Prawn syntax - it is initialized for you
-as a Prawn::Document instance.
+*NOTE: The `pdf` object must always be referenced when making using of the Prawn syntax - it is initialized for you as a
+Prawn::Document instance.*
 
 ## Controllers
 
-Within your controller, only the respond_to method is required. Using the same example above, only the following
-would be necessary:
+Within your controller, only the `respond_to` method is required. Example:
 
     class DocumentsController < ApplicationController
       respond_to :pdf
@@ -125,7 +124,7 @@ Read [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 # Credits
 
-Developed by [Brooke Kuhlmann](https://www.alchemists.io) at [Alchemists](https://www.alchemists.io)
+Developed by [Brooke Kuhlmann](https://www.alchemists.io) at [Alchemists](https://www.alchemists.io).
 
 # License
 
