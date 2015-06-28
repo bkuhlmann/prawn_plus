@@ -5,11 +5,9 @@ env:
 rvm:
 - 2.1.0
 - 2.2.0
-- jruby-head
 gemfile:
 - gemfiles/rails-4.1.x.gemfile
 - gemfiles/rails-4.2.x.gemfile
-before_install: rm -f Gemfile.lock
 script: bundle exec rspec spec
 notifications:
   email: false

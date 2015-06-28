@@ -17,23 +17,14 @@ Gem::Specification.new do |spec|
     spec.cert_chain = [File.expand_path("~/.ssh/gem-public.pem")]
   end
 
-  case Gem.ruby_engine
-    when "ruby"
-      spec.add_development_dependency "sqlite3"
-      spec.add_development_dependency "pry-byebug"
-      spec.add_development_dependency "pry-stack_explorer"
-    when "jruby"
-      spec.add_development_dependency "activerecord-jdbcsqlite3-adapter"
-      spec.add_development_dependency "pry-nav"
-    else
-      raise RuntimeError.new("Unsupported Ruby Engine!")
-  end
-
   spec.add_dependency "rails", "~> 4.1"
   spec.add_dependency "prawn", "~> 2.0"
   spec.add_dependency "prawn-table", "~> 0.2"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "sqlite3"
   spec.add_development_dependency "pry"
+  spec.add_development_dependency "pry-byebug"
+  spec.add_development_dependency "pry-stack_explorer"
   spec.add_development_dependency "pry-remote"
   spec.add_development_dependency "pry-rescue"
   spec.add_development_dependency "rspec-rails"

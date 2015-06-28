@@ -7,16 +7,10 @@ if ENV["CODECLIMATE_REPO_TOKEN"]
 end
 
 require "pry"
+require "pry-byebug"
+require "pry-stack_explorer"
 require "pry-remote"
 require "pry-rescue"
-
-case Gem.ruby_engine
-  when "ruby"
-    require "pry-byebug"
-    require "pry-stack_explorer"
-  when "jruby"
-    require "pry-nav"
-end
 
 # Load Dummy Rails application.
 ENV["RAILS_ENV"] ||= "test"
