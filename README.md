@@ -15,9 +15,7 @@
 
 # Requirements
 
-0. Any of the following Ruby VMs:
-    - [MRI 2.x.x](http://www.ruby-lang.org)
-    - [JRuby 1.x.x](http://jruby.org)
+0. [MRI 2.x.x](http://www.ruby-lang.org).
 0. [Ruby on Rails 4.x.x](http://rubyonrails.org).
 0. [Prawn](https://github.com/prawnpdf/prawn).
 
