@@ -1,9 +1,9 @@
 $:.push File.expand_path("../lib", __FILE__)
-require "prawn_plus/version"
+require "prawn_plus/identity"
 
 Gem::Specification.new do |spec|
-  spec.name                  = "prawn_plus"
-  spec.version               = PrawnPlus::VERSION
+  spec.name                  = PrawnPlus::Identity.name
+  spec.version               = PrawnPlus::Identity.version
   spec.platform              = Gem::Platform::RUBY
   spec.authors               = ["Brooke Kuhlmann"]
   spec.email                 = ["brooke@alchemists.io"]
