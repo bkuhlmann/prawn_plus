@@ -1,4 +1,4 @@
-# Overview
+# Prawn+
 
 [![Gem Version](https://badge.fury.io/rb/prawn_plus.png)](http://badge.fury.io/rb/prawn_plus)
 [![Code Climate GPA](https://codeclimate.com/github/bkuhlmann/prawn_plus.png)](https://codeclimate.com/github/bkuhlmann/prawn_plus)
