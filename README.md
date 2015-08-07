@@ -5,7 +5,6 @@
 [![Code Climate Coverage](https://codeclimate.com/github/bkuhlmann/prawn_plus/coverage.svg)](https://codeclimate.com/github/bkuhlmann/prawn_plus)
 [![Gemnasium Status](https://gemnasium.com/bkuhlmann/prawn_plus.svg)](https://gemnasium.com/bkuhlmann/prawn_plus)
 [![Travis CI Status](https://secure.travis-ci.org/bkuhlmann/prawn_plus.svg)](http://travis-ci.org/bkuhlmann/prawn_plus)
-[![Gittip](http://img.shields.io/gittip/bkuhlmann.svg)](https://www.gittip.com/bkuhlmann)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
