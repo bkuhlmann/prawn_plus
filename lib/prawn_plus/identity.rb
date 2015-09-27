@@ -1,4 +1,5 @@
 module PrawnPlus
+  # Gem identity information.
   module Identity
     def self.name
       "prawn_plus"
