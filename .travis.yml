@@ -9,7 +9,7 @@ rvm:
 gemfile:
 - gemfiles/rails-4.1.x.gemfile
 - gemfiles/rails-4.2.x.gemfile
-script: bundle exec rspec spec
+script: bundle exec rake
 notifications:
   email: false
   slack:
