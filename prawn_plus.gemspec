@@ -1,4 +1,4 @@
-$:.push File.expand_path("../lib", __FILE__)
+$LOAD_PATH.push File.expand_path("../lib", __FILE__)
 require "prawn_plus/identity"
 
 Gem::Specification.new do |spec|
@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email                 = ["brooke@alchemists.io"]
   spec.homepage              = "https://github.com/bkuhlmann/prawn_plus"
   spec.summary               = "Enhances default Prawn PDF functionality."
-  spec.description           = "Enhances default Prawn PDF functionality (which includes PDF template handling/rendering)."
+  spec.description           = "Enhances default Prawn PDF functionality."
   spec.license               = "MIT"
 
   if ENV["RUBY_GEM_SECURITY"] == "enabled"
@@ -35,6 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "guard-rspec"
   spec.add_development_dependency "terminal-notifier"
   spec.add_development_dependency "terminal-notifier-guard"
+  spec.add_development_dependency "rubocop"
   spec.add_development_dependency "codeclimate-test-reporter"
 
   spec.files            = Dir["lib/**/*", "vendor/**/*"]

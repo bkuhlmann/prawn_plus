@@ -15,7 +15,7 @@ require "pry-rescue"
 
 # Load Dummy Rails application.
 ENV["RAILS_ENV"] ||= "test"
-require File.expand_path "../dummy/config/environment",  __FILE__
+require File.expand_path "../dummy/config/environment", __FILE__
 ENV["RAILS_ROOT"] ||= File.dirname(__FILE__) + "/dummy"
 
 # Load Capybara for application request testing.
@@ -27,6 +27,6 @@ ActiveRecord::Base.establish_connection adapter: "sqlite3", database: ":memory:"
 
 Dir[File.join(File.dirname(__FILE__), "support/kit/**/*.rb")].each { |file| require file }
 
-RSpec.configure do |config|
+RSpec.configure do |_config|
   Capybara.app = Dummy::Application
 end
