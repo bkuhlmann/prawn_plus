@@ -6,13 +6,6 @@ if ENV["CODECLIMATE_REPO_TOKEN"]
   CodeClimate::TestReporter.start
 end
 
-require "pry"
-require "pry-byebug"
-require "pry-state"
-require "pry-stack_explorer"
-require "pry-remote"
-require "pry-rescue"
-
 # Load Dummy Rails application.
 ENV["RAILS_ENV"] ||= "test"
 require File.expand_path "../dummy/config/environment", __FILE__
@@ -25,6 +18,7 @@ require "capybara/rails"
 # Load SQLite database in memory.
 ActiveRecord::Base.establish_connection adapter: "sqlite3", database: ":memory:"
 
+Dir[File.join(File.dirname(__FILE__), "support/extensions/**/*.rb")].each { |file| require file }
 Dir[File.join(File.dirname(__FILE__), "support/kit/**/*.rb")].each { |file| require file }
 
 RSpec.configure do |_config|
