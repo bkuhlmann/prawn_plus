@@ -14,7 +14,7 @@ module PrawnPlus
     end
 
     def self.label_version
-      [label, version].join " "
+      "#{label} #{version}"
     end
   end
 end
