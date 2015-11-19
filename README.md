@@ -7,16 +7,16 @@
 [![Travis CI Status](https://secure.travis-ci.org/bkuhlmann/prawn_plus.svg)](http://travis-ci.org/bkuhlmann/prawn_plus)
 [![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/bkuhlmann)
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+<!-- Tocer[start]: Auto-generated, don't remove. -->
+
 # Table of Contents
 
 - [Features](#features)
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [Usage](#usage)
-    - [Views](#views)
-    - [Controllers](#controllers)
+  - [Views](#views)
+  - [Controllers](#controllers)
 - [Tests](#tests)
 - [Versioning](#versioning)
 - [Code of Conduct](#code-of-conduct)
@@ -25,7 +25,7 @@
 - [History](#history)
 - [Credits](#credits)
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<!-- Tocer[finish]: Auto-generated, don't remove. -->
 
 # Features
 
