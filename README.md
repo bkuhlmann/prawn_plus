@@ -4,7 +4,7 @@
 [![Code Climate GPA](https://codeclimate.com/github/bkuhlmann/prawn_plus.svg)](https://codeclimate.com/github/bkuhlmann/prawn_plus)
 [![Code Climate Coverage](https://codeclimate.com/github/bkuhlmann/prawn_plus/coverage.svg)](https://codeclimate.com/github/bkuhlmann/prawn_plus)
 [![Gemnasium Status](https://gemnasium.com/bkuhlmann/prawn_plus.svg)](https://gemnasium.com/bkuhlmann/prawn_plus)
-[![Travis CI Status](https://secure.travis-ci.org/bkuhlmann/prawn_plus.svg)](http://travis-ci.org/bkuhlmann/prawn_plus)
+[![Travis CI Status](https://secure.travis-ci.org/bkuhlmann/prawn_plus.svg)](https://travis-ci.org/bkuhlmann/prawn_plus)
 [![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/bkuhlmann)
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
@@ -35,7 +35,7 @@
 
 # Requirements
 
-0. [MRI 2.x.x](http://www.ruby-lang.org).
+0. [MRI 2.x.x](https://www.ruby-lang.org).
 0. [Ruby on Rails 4.x.x](http://rubyonrails.org).
 0. [Prawn](https://github.com/prawnpdf/prawn).
 
