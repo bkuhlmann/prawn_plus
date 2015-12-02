@@ -1,3 +1,23 @@
+# v6.3.0 (2015-12-02)
+
+- Fixed README URLs to use HTTPS schemes where possible.
+- Fixed README test command instructions.
+- Added Gemsmith development support.
+- Added Identity module description.
+- Added Patreon badge to README.
+- Added Rubocop support.
+- Added [pry-state](https://github.com/SudhagarS/pry-state) support.
+- Added project name to README.
+- Added table of contents to README.
+- Updated Code Climate to run when CI ENV is set.
+- Updated Code of Conduct 1.3.0.
+- Updated README with Tocer generated Table of Contents.
+- Updated RSpec support kit with new Gemsmith changes.
+- Updated to Ruby 2.2.3.
+- Updated README with SVG icons.
+- Removed GitTip badge from README.
+- Removed unnecessary exclusions from .gitignore.
+
 # v6.2.0 (2015-07-05)
 
 - Removed JRuby support (no longer officially supported).
