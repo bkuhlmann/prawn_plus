@@ -17,6 +17,7 @@ Gem::Specification.new do |spec|
     spec.cert_chain = [File.expand_path("~/.ssh/gem-public.pem")]
   end
 
+  spec.required_ruby_version = "~> 2.3"
   spec.add_dependency "rails", "~> 4.1"
   spec.add_dependency "prawn", "~> 2.0"
   spec.add_dependency "prawn-table", "~> 0.2"
