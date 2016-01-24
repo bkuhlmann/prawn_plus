@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module PrawnPlus
   # The Rails hook.
   class Railtie < Rails::Railtie
