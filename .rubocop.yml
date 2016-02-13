@@ -10,6 +10,8 @@ Style/NumericLiterals:
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
     "%r": "()"
+Style/SignalException:
+  EnforcedStyle: semantic
 Style/SingleLineBlockParams:
   Enabled: false
 Style/SpaceInsideHashLiteralBraces:
