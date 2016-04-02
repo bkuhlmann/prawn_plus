@@ -15,7 +15,7 @@ module PrawnPlus
       "6.3.0"
     end
 
-    def self.label_version
+    def self.version_label
       "#{label} #{version}"
     end
   end
