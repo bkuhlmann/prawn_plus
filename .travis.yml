@@ -6,8 +6,7 @@ env:
 rvm:
 - 2.3.0
 gemfile:
-- gemfiles/rails-4.1.x.gemfile
-- gemfiles/rails-4.2.x.gemfile
+- gemfiles/rails-5.0.x.gemfile
 script: bundle exec rake
 notifications:
   email: false

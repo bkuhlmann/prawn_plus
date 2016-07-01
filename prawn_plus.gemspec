@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.required_ruby_version = "~> 2.3"
-  spec.add_dependency "rails", "~> 4.1"
+  spec.add_dependency "rails", "~> 5.0"
   spec.add_dependency "prawn", "~> 2.1"
   spec.add_dependency "prawn-table", "~> 0.2"
   spec.add_development_dependency "rake", "~> 11.0"
@@ -31,13 +31,13 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "wirb"
   spec.add_development_dependency "hirb"
   spec.add_development_dependency "awesome_print"
-  spec.add_development_dependency "rspec-rails", "~> 3.4"
+  spec.add_development_dependency "rspec-rails", "~> 3.5"
   spec.add_development_dependency "capybara"
   spec.add_development_dependency "rb-fsevent" # Guard file events for OSX.
   spec.add_development_dependency "guard-rspec"
   spec.add_development_dependency "terminal-notifier"
   spec.add_development_dependency "terminal-notifier-guard"
-  spec.add_development_dependency "rubocop", "~> 0.40"
+  spec.add_development_dependency "rubocop", "~> 0.41"
   spec.add_development_dependency "codeclimate-test-reporter"
 
   spec.files            = Dir["lib/**/*", "vendor/**/*"]
