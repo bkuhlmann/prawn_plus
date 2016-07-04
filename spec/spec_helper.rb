@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-# Setup Bundler
 require "bundler/setup"
 
 if ENV["CI"]
@@ -8,21 +7,28 @@ if ENV["CI"]
   CodeClimate::TestReporter.start
 end
 
-# Load Dummy Rails application.
-ENV["RAILS_ENV"] ||= "test"
-require File.expand_path "../dummy/config/environment", __FILE__
-ENV["RAILS_ROOT"] ||= File.dirname(__FILE__) + "/dummy"
+require "pry"
+require "pry-byebug"
+require "pry-state"
 
-# Load Capybara for application request testing.
-require "capybara/rspec"
-require "capybara/rails"
+Dir[File.join(File.dirname(__FILE__), "support/shared_contexts/**/*.rb")].each { |file| require file }
 
-# Load SQLite database in memory.
-ActiveRecord::Base.establish_connection adapter: "sqlite3", database: ":memory:"
+RSpec.configure do |config|
+  config.order = "random"
+  config.disable_monkey_patching!
+  config.filter_run_when_matching :focus
+  config.example_status_persistence_file_path = "./tmp/rspec-status.txt"
+  config.shared_context_metadata_behavior = :apply_to_host_groups
 
-Dir[File.join(File.dirname(__FILE__), "support/extensions/**/*.rb")].each { |file| require file }
-Dir[File.join(File.dirname(__FILE__), "support/kit/**/*.rb")].each { |file| require file }
+  config.mock_with :rspec do |mocks|
+    mocks.verify_partial_doubles = true
+  end
 
-RSpec.configure do |_config|
-  Capybara.app = Dummy::Application
+  config.expect_with :rspec do |expectations|
+    expectations.syntax = :expect
+    expectations.include_chain_clauses_in_custom_matcher_descriptions = true
+  end
+
+  $stdout = File.new("/dev/null", "w") if ENV["SUPPRESS_STDOUT"] == "enabled"
+  $stderr = File.new("/dev/null", "w") if ENV["SUPPRESS_STDERR"] == "enabled"
 end

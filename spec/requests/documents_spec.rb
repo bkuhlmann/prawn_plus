@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "spec_helper"
+require "rails_helper"
 
 RSpec.describe "Rails Requests" do
   include Dummy::Application.routes.url_helpers
