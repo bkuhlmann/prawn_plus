@@ -1,0 +1,28 @@
+doctype html
+html lang="en"
+  head
+    /! Force latest IE rendering engine & Chrome Frame.
+    meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"
+
+    /! Encoding
+    meta charset="utf-8"
+
+    /! Viewport
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+
+    /! Identity
+    title Rails Slim Template
+    meta name="description" content="A template for bootstrapping new Rails projects with minimal functionality."
+    meta name="author" content="Alchemists"
+
+    /! Security
+    = csrf_meta_tag
+
+    /! Stylesheets
+    = stylesheet_link_tag "application", media: "all"
+
+  body
+    = yield
+
+    /! JavaScripts
+    = javascript_include_tag "application"

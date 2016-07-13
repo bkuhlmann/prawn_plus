@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+
+require_relative "config/application"
+
+Rails.application.load_tasks
+
+task :default
+Rake::Task["default"].clear
+task default: %w[spec rubocop rails_best_practices]

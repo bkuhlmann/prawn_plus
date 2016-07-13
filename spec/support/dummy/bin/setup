@@ -1,0 +1,30 @@
+#! /usr/bin/env ruby
+# frozen_string_literal: true
+
+require "pathname"
+require "fileutils"
+
+app_root = Pathname.new File.expand_path("../../", __FILE__)
+
+def label message, prefix: "", suffix: ""
+  puts "#{prefix}== #{message} ==#{suffix}"
+end
+
+def system! *args
+  system(*args) || abort(label("Command #{args} failed", prefix: "\n"))
+end
+
+FileUtils.chdir app_root do
+  label "Installing dependencies"
+  system! "gem install bundler --conservative"
+  system("bundle check") || system!("bundle install")
+
+  label "Preparing database", prefix: "\n"
+  system! "bin/rails db:setup"
+
+  label "Removing old logs and tempfiles", prefix: "\n"
+  system! "bin/rails log:clear tmp:clear"
+
+  label "Restarting application server", prefix: "\n"
+  system! "bin/rails restart"
+end
