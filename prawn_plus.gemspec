@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "prawn", "~> 2.1"
   spec.add_dependency "prawn-table", "~> 0.2"
   spec.add_development_dependency "rake", "~> 11.0"
+  spec.add_development_dependency "pg"
   spec.add_development_dependency "gemsmith", "~> 7.7"
   spec.add_development_dependency "sqlite3"
   spec.add_development_dependency "pry"

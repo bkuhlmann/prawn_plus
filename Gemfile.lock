@@ -126,6 +126,7 @@ GEM
     parser (2.3.1.2)
       ast (~> 2.2)
     pdf-core (0.6.1)
+    pg (0.18.4)
     pkg-config (1.1.7)
     powerpack (0.1.1)
     prawn (2.1.0)
@@ -252,6 +253,7 @@ DEPENDENCIES
   gemsmith (~> 7.7)
   guard-rspec
   hirb
+  pg
   prawn_plus!
   pry
   pry-byebug
