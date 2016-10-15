@@ -255,11 +255,10 @@ DEPENDENCIES
   pry-byebug
   pry-state
   rake (~> 11.0)
-  rb-fsevent
   rspec-rails (~> 3.5)
   rubocop (~> 0.44)
   sqlite3
   wirb
 
 BUNDLED WITH
-   1.13.4
+   1.13.5
