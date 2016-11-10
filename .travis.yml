@@ -8,6 +8,7 @@ gemfile: gemfiles/rails-5.0.x.gemfile
 services: postgresql
 before_script: psql -c "create database dummy_test;" -U postgres
 script: bundle exec rake
+after_script: bundle exec codeclimate-test-reporter
 notifications:
   email: false
   slack:
