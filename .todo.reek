@@ -1,0 +1,8 @@
+---
+UtilityFunction:
+  exclude:
+  - PrawnPlus::TemplateHandlers::Prawn#call
+IrresponsibleModule:
+  exclude:
+  - ApplicationCable::Channel
+  - ApplicationCable::Connection
