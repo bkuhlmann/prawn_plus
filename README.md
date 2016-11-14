@@ -36,7 +36,7 @@
 # Requirements
 
 0. [Ruby 2.x.x](https://www.ruby-lang.org).
-0. [Ruby on Rails 4.x.x](http://rubyonrails.org).
+0. [Ruby on Rails 5.x.x](http://rubyonrails.org).
 0. [Prawn](https://github.com/prawnpdf/prawn).
 
 # Setup
@@ -46,8 +46,9 @@ For a secure install, type the following from the command line (recommended):
     gem cert --add <(curl --location --silent https://www.alchemists.io/gem-public.pem)
     gem install prawn_plus --trust-policy MediumSecurity
 
-NOTE: A HighSecurity trust policy would be best but MediumSecurity enables signed gem verification while
-allowing the installation of unsigned dependencies since they are beyond the scope of this gem.
+NOTE: A HighSecurity trust policy would be best but MediumSecurity enables signed gem verification
+while allowing the installation of unsigned dependencies since they are beyond the scope of this
+gem.
 
 For an insecure install, type the following (not recommended):
 
@@ -61,8 +62,8 @@ Add the following to your Gemfile:
 
 ## Views
 
-Within your views you can craft Prawn templates using Ruby code. For example, assuming there are document resources,
-then the following structure might exist:
+Within your views you can craft Prawn templates using Ruby code. For example, assuming there are
+document resources, then the following structure might exist:
 
     /views/documents/show.html.slim
     /views/documents/show.pdf.prawn
@@ -106,8 +107,8 @@ You could also render a more complex PDF with tabular information, for example:
 
 [![Complex Example](https://github.com/bkuhlmann/prawn_plus/raw/master/doc/examples/complex.png)](https://github.com/bkuhlmann/prawn_plus)
 
-*NOTE: The `pdf` object must always be referenced when making using of the Prawn syntax - it is initialized for you as a
-Prawn::Document instance.*
+*NOTE: The `pdf` object must always be referenced when making using of the Prawn syntax - it is
+initialized for you as a Prawn::Document instance.*
 
 ## Controllers
 
@@ -138,8 +139,8 @@ Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
 
 # Code of Conduct
 
-Please note that this project is released with a [CODE OF CONDUCT](CODE_OF_CONDUCT.md). By participating in this project
-you agree to abide by its terms.
+Please note that this project is released with a [CODE OF CONDUCT](CODE_OF_CONDUCT.md). By
+participating in this project you agree to abide by its terms.
 
 # Contributions
 
@@ -157,4 +158,5 @@ Built with [Gemsmith](https://github.com/bkuhlmann/gemsmith).
 
 # Credits
 
-Developed by [Brooke Kuhlmann](https://www.alchemists.io) at [Alchemists](https://www.alchemists.io).
+Developed by [Brooke Kuhlmann](https://www.alchemists.io) at
+[Alchemists](https://www.alchemists.io).

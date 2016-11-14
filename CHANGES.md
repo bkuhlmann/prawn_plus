@@ -1,3 +1,48 @@
+# v7.0.0 (2016-11-14)
+
+- Fixed Rakefile to safely load Gemsmith tasks.
+- Fixed contributing guideline links.
+- Added "pg" gem development dependency.
+- Added Code Climate engine support.
+- Added GitHub issue and pull request templates.
+- Added IRB development console Rake task support.
+- Added Reek support.
+- Added Rubocop Style/SignalException cop style.
+- Added Ruby 2.3.0 frozen string literal support.
+- Added Travis CI PostgreSQL setup.
+- Added `Gemfile.lock` to `.gitignore`.
+- Added bond, wirb, hirb, and awesome_print development dependencies.
+- Added frozen string literal pragma.
+- Updated GitHub issue and pull request templates.
+- Updated README secure gem install documentation.
+- Updated README to mention "Ruby" instead of "MRI".
+- Updated README versioning documentation.
+- Updated RSpec temp directory to use Bundler root path.
+- Updated Rubocop PercentLiteralDelimiters and AndOr styles.
+- Updated dummy application to a Rails 5 application.
+- Updated gem dependencies.
+- Updated gemspec with conservative versions.
+- Updated to Code Climate Test Reporter 1.0.0.
+- Updated to Code of Conduct, Version 1.4.0.
+- Updated to Gemsmith 7.7.0.
+- Updated to Rails 5.0.0.
+- Updated to Rubocop 0.44.
+- Updated to Ruby 2.2.4.
+- Updated to Ruby 2.3.0.
+- Updated to Ruby 2.3.1.
+- Removed CHANGELOG.md (use CHANGES.md instead).
+- Removed RSpec default monkey patching behavior.
+- Removed Rake console task.
+- Removed Ruby 2.1.x and 2.2.x support.
+- Removed gemspec description.
+- Removed legacy dummy application.
+- Removed rb-fsevent development dependency from gemspec.
+- Removed terminal notifier gems from gemspec.
+- Removed unused "vendor" folder from gemspec.
+- Refactored RSpec spec helper configuration.
+- Refactored gemspec to use default security keys.
+- Refactored version label method name.
+
 # v6.3.0 (2015-12-02)
 
 - Fixed README URLs to use HTTPS schemes where possible.
