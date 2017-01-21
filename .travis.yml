@@ -5,6 +5,7 @@ env:
     - secure: K4aGt7gMExLg48jklPCT+Xf/Gey8S5kbnfAhbpfoqfs0T6JNAV6Tv3rGKW5FRPehqtw58w3kv2JtCfY/6LwAXh3JYdS7Zoj8a7cvCNnhk+4cS4L5OrohP2BJLzWU03xlpkKqw/py55hp0reDQHECxE0BmA8zTaIEYt/3svSFro0=
 gemfile: gemfiles/rails-5.0.x.gemfile
 services: postgresql
+before_install: gem update --system && gem update && gem cleanup
 before_script: psql -c "create database dummy_test;" -U postgres
 after_script: bundle exec codeclimate-test-reporter
 notifications:
