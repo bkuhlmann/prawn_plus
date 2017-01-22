@@ -15,7 +15,10 @@ port local_port
 environment ENV.fetch("RACK_ENV", "development")
 
 if ENV["HTTPS_LOCAL"] == "true"
-  bind "ssl://localhost:#{local_port}?key=#{local_root}/.ssl/localhost.key&cert=#{local_root}/.ssl/localhost.crt"
+  key = "#{local_root}/.ssl/localhost.key"
+  cert = "#{local_root}/.ssl/localhost.crt"
+
+  bind "ssl://localhost:#{local_port}?key=#{key}&cert=#{cert}"
 end
 
 on_worker_boot do
