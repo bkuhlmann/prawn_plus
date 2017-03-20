@@ -1,3 +1,17 @@
+# v7.3.0 (2017-03-20)
+
+- Fixed Travis CI configuration to not update gems.
+- Added code quality Rake task.
+- Updated Guardfile to always run RSpec with documentation format.
+- Updated README semantic versioning order.
+- Updated RSpec configuration to output documentation when running.
+- Updated RSpec spec helper to enable color output.
+- Updated Rubocop to import from global configuration.
+- Updated contributing documentation.
+- Updated to Prawn 2.2.x.
+- Removed Code Climate code comment checks.
+- Removed `.bundle` directory from `.gitignore`.
+
 # v7.2.0 (2017-01-22)
 
 - Updated Rubocop Metrics/LineLength to 100 characters.
