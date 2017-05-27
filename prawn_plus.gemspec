@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "prawn-table", "~> 0.2"
   spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency "pg", "~> 0.19"
-  spec.add_development_dependency "gemsmith", "~> 9.0"
+  spec.add_development_dependency "gemsmith", "~> 9.5"
   spec.add_development_dependency "sqlite3", "~> 1.3"
   spec.add_development_dependency "pry", "~> 0.10"
   spec.add_development_dependency "pry-byebug", "~> 3.4"
@@ -36,8 +36,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec-rails", "~> 3.5"
   spec.add_development_dependency "capybara", "~> 2.10"
   spec.add_development_dependency "guard-rspec", "~> 4.7"
-  spec.add_development_dependency "reek", "~> 4.5"
-  spec.add_development_dependency "rubocop", "~> 0.48"
+  spec.add_development_dependency "reek", "~> 4.6"
+  spec.add_development_dependency "rubocop", "~> 0.49"
   spec.add_development_dependency "codeclimate-test-reporter", "~> 1.0"
 
   spec.files            = Dir["lib/**/*"]
