@@ -12,7 +12,7 @@ module PrawnPlus
     end
 
     def self.version
-      "7.3.0"
+      "7.4.0"
     end
 
     def self.version_label

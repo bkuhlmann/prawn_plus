@@ -1,3 +1,16 @@
+# v7.4.0 (2017-06-25)
+
+- Fixed Rubocop Style/MixinGrouping issues.
+- Added Circle CI support.
+- Added Git Cop code quality task.
+- Added Rails 5.1.0 support.
+- Updated CONTRIBUTING documentation.
+- Updated Rubocop configuration.
+- Updated gem dependencies.
+- Updated to Gemsmith 10.0.0.
+- Updated to Ruby 2.4.1.
+- Removed Travis CI support.
+
 # v7.3.0 (2017-03-20)
 
 - Fixed Travis CI configuration to not update gems.
