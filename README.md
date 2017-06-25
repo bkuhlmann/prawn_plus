@@ -9,37 +9,37 @@
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
-# Table of Contents
+## Table of Contents
 
-- [Features](#features)
-- [Requirements](#requirements)
-- [Setup](#setup)
-- [Usage](#usage)
-  - [Views](#views)
-  - [Controllers](#controllers)
-- [Tests](#tests)
-- [Versioning](#versioning)
-- [Code of Conduct](#code-of-conduct)
-- [Contributions](#contributions)
-- [License](#license)
-- [History](#history)
-- [Credits](#credits)
+  - [Features](#features)
+  - [Requirements](#requirements)
+  - [Setup](#setup)
+  - [Usage](#usage)
+    - [Views](#views)
+    - [Controllers](#controllers)
+  - [Tests](#tests)
+  - [Versioning](#versioning)
+  - [Code of Conduct](#code-of-conduct)
+  - [Contributions](#contributions)
+  - [License](#license)
+  - [History](#history)
+  - [Credits](#credits)
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
 
-# Features
+## Features
 
 - Loads the [Prawn](https://github.com/prawnpdf/prawn) gem by default (no Gemfile entry necessary).
 - Registers PDF as a MIME type.
 - Registers a template handler for rendering ".prawn" template view files.
 
-# Requirements
+## Requirements
 
 0. [Ruby 2.4.x](https://www.ruby-lang.org).
 0. [Ruby on Rails 5.x.x](http://rubyonrails.org).
 0. [Prawn](https://github.com/prawnpdf/prawn).
 
-# Setup
+## Setup
 
 For a secure install, type the following from the command line (recommended):
 
@@ -58,9 +58,9 @@ Add the following to your Gemfile:
 
     gem "prawn_plus"
 
-# Usage
+## Usage
 
-## Views
+### Views
 
 Within your views you can craft Prawn templates using Ruby code. For example, assuming there are
 document resources, then the following structure might exist:
@@ -110,7 +110,7 @@ You could also render a more complex PDF with tabular information, for example:
 *NOTE: The `pdf` object must always be referenced when making using of the Prawn syntax - it is
 initialized for you as a Prawn::Document instance.*
 
-## Controllers
+### Controllers
 
 Within your controller, only the `respond_to` method is required. Example:
 
@@ -123,13 +123,13 @@ Within your controller, only the `respond_to` method is required. Example:
 
 That's it!
 
-# Tests
+## Tests
 
 To test, run:
 
     bundle exec rake
 
-# Versioning
+## Versioning
 
 Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
 
@@ -137,26 +137,26 @@ Read [Semantic Versioning](http://semver.org) for details. Briefly, it means:
 - Minor (x.Y.z) - Incremented for new, backwards compatible, public API enhancements/fixes.
 - Patch (x.y.Z) - Incremented for small, backwards compatible, bug fixes.
 
-# Code of Conduct
+## Code of Conduct
 
 Please note that this project is released with a [CODE OF CONDUCT](CODE_OF_CONDUCT.md). By
 participating in this project you agree to abide by its terms.
 
-# Contributions
+## Contributions
 
 Read [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-# License
+## License
 
 Copyright (c) 2012 [Alchemists](https://www.alchemists.io).
 Read [LICENSE](LICENSE.md) for details.
 
-# History
+## History
 
 Read [CHANGES](CHANGES.md) for details.
 Built with [Gemsmith](https://github.com/bkuhlmann/gemsmith).
 
-# Credits
+## Credits
 
 Developed by [Brooke Kuhlmann](https://www.alchemists.io) at
 [Alchemists](https://www.alchemists.io).
