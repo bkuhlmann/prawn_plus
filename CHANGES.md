@@ -1,3 +1,14 @@
+# v7.5.0 (2017-10-29)
+
+- Added Bundler Audit gem.
+- Added dynamic formatting of RSpec output.
+- Updated GitHub templates.
+- Updated to Git Cop 1.3.0.
+- Updated to Rubocop 0.50.0.
+- Updated to Rubocop 0.51.0.
+- Updated to Ruby 2.4.2.
+- Removed Pry State gem.
+
 # v7.4.0 (2017-06-25)
 
 - Fixed Rubocop Style/MixinGrouping issues.
