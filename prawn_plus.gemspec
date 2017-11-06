@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "capybara", "~> 2.15"
   spec.add_development_dependency "codeclimate-test-reporter", "~> 1.0"
   spec.add_development_dependency "gemsmith", "~> 10.4"
-  spec.add_development_dependency "git-cop", "~> 1.6"
+  spec.add_development_dependency "git-cop", "~> 1.7"
   spec.add_development_dependency "guard-rspec", "~> 4.7"
   spec.add_development_dependency "hirb", "~> 0.7"
   spec.add_development_dependency "pg", "~> 0.21"
