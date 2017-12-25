@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
     spec.cert_chain = [Gem.default_cert_path]
   end
 
-  spec.required_ruby_version = "~> 2.4"
+  spec.required_ruby_version = "~> 2.5"
   spec.add_dependency "prawn", "~> 2.2"
   spec.add_dependency "prawn-table", "~> 0.2"
   spec.add_dependency "rails", "~> 5.0"
