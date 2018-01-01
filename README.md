@@ -35,7 +35,7 @@
 
 ## Requirements
 
-0. [Ruby 2.4.x](https://www.ruby-lang.org).
+0. [Ruby 2.5.x](https://www.ruby-lang.org).
 0. [Ruby on Rails 5.x.x](http://rubyonrails.org).
 0. [Prawn](https://github.com/prawnpdf/prawn).
 
