@@ -5,7 +5,6 @@
 [![Code Climate Test Coverage](https://api.codeclimate.com/v1/badges/11437f0567f0cd96d04e/test_coverage)](https://codeclimate.com/github/bkuhlmann/prawn_plus/test_coverage)
 [![Gemnasium Status](https://gemnasium.com/bkuhlmann/prawn_plus.svg)](https://gemnasium.com/bkuhlmann/prawn_plus)
 [![Circle CI Status](https://circleci.com/gh/bkuhlmann/prawn_plus.svg?style=svg)](https://circleci.com/gh/bkuhlmann/prawn_plus)
-[![Patreon](https://img.shields.io/badge/patreon-donate-brightgreen.svg)](https://www.patreon.com/bkuhlmann)
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
