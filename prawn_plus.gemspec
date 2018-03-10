@@ -33,9 +33,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry", "~> 0.10"
   spec.add_development_dependency "pry-byebug", "~> 3.5"
   spec.add_development_dependency "rake", "~> 12.3"
-  spec.add_development_dependency "reek", "~> 4.7"
+  spec.add_development_dependency "reek", "~> 4.8"
   spec.add_development_dependency "rspec-rails", "~> 3.7"
-  spec.add_development_dependency "rubocop", "~> 0.52"
+  spec.add_development_dependency "rubocop", "~> 0.53"
   spec.add_development_dependency "sqlite3", "~> 1.3"
   spec.add_development_dependency "wirb", "~> 2.1"
 
