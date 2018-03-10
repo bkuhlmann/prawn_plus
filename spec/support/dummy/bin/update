@@ -4,7 +4,7 @@
 require "pathname"
 require "fileutils"
 
-app_root = Pathname.new File.expand_path("../../", __FILE__)
+app_root = Pathname.new File.expand_path("..", __dir__)
 
 def label message, prefix: "", suffix: ""
   puts "#{prefix}== #{message} ==#{suffix}"
