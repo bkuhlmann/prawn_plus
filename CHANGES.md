@@ -1,4 +1,4 @@
-# v8.1.0 (2018-04-01)
+# 8.1.0 (2018-04-01)
 
 - Fixed Rubocop Style/MissingElse issues.
 - Fixed gemspec issues with missing gem signing key/certificate.
@@ -17,7 +17,7 @@
 - Removed Patreon badge from README.
 - Refactored temp dir shared context as a pathname.
 
-# v8.0.0 (2018-01-01)
+# 8.0.0 (2018-01-01)
 
 - Updated Code Climate badges.
 - Updated Code Climate configuration to Version 2.0.0.
@@ -31,12 +31,12 @@
 - Refactored code to use Ruby 2.5.0 `Array#append` syntax.
 - Refactored code to use Ruby 2.5.0 `Array#prepend` syntax.
 
-# v7.5.1 (2017-11-19)
+# 7.5.1 (2017-11-19)
 
 - Updated to Git Cop 1.7.0.
 - Updated to Rake 12.3.0.
 
-# v7.5.0 (2017-10-29)
+# 7.5.0 (2017-10-29)
 
 - Added Bundler Audit gem.
 - Added dynamic formatting of RSpec output.
@@ -47,7 +47,7 @@
 - Updated to Ruby 2.4.2.
 - Removed Pry State gem.
 
-# v7.4.0 (2017-06-25)
+# 7.4.0 (2017-06-25)
 
 - Fixed Rubocop Style/MixinGrouping issues.
 - Added Circle CI support.
@@ -60,7 +60,7 @@
 - Updated to Ruby 2.4.1.
 - Removed Travis CI support.
 
-# v7.3.0 (2017-03-20)
+# 7.3.0 (2017-03-20)
 
 - Fixed Travis CI configuration to not update gems.
 - Added code quality Rake task.
@@ -74,7 +74,7 @@
 - Removed Code Climate code comment checks.
 - Removed `.bundle` directory from `.gitignore`.
 
-# v7.2.0 (2017-01-22)
+# 7.2.0 (2017-01-22)
 
 - Updated Rubocop Metrics/LineLength to 100 characters.
 - Updated Rubocop Metrics/ParameterLists max to three.
@@ -84,7 +84,7 @@
 - Updated to Ruby 2.4.0.
 - Removed Rubocop Style/Documentation check.
 
-# v7.1.0 (2016-12-18)
+# 7.1.0 (2016-12-18)
 
 - Fixed Rakefile support for RSpec, Reek, Rubocop, and SCSS Lint.
 - Updated Travis CI configuration to use defaults.
@@ -94,7 +94,7 @@
 - Updated to Ruby 2.3.2.
 - Updated to Ruby 2.3.3.
 
-# v7.0.0 (2016-11-14)
+# 7.0.0 (2016-11-14)
 
 - Fixed Rakefile to safely load Gemsmith tasks.
 - Fixed contributing guideline links.
@@ -139,7 +139,7 @@
 - Refactored gemspec to use default security keys.
 - Refactored version label method name.
 
-# v6.3.0 (2015-12-02)
+# 6.3.0 (2015-12-02)
 
 - Fixed README URLs to use HTTPS schemes where possible.
 - Fixed README test command instructions.
@@ -159,18 +159,18 @@
 - Removed GitTip badge from README.
 - Removed unnecessary exclusions from .gitignore.
 
-# v6.2.0 (2015-07-05)
+# 6.2.0 (2015-07-05)
 
 - Removed JRuby support (no longer officially supported).
 - Fixed secure gem installs (new cert has 10 year lifespan).
 - Updated to Ruby 2.2.2.
 - Added code of conduct documentation.
 
-# v6.1.0 (2015-03-01)
+# 6.1.0 (2015-03-01)
 
 - Updated to Prawn 2.0.0.
 
-# v6.0.0 (2015-01-01)
+# 6.0.0 (2015-01-01)
 
 - Removed Ruby 2.0.0 support.
 - Removed Rubinius support.
@@ -182,25 +182,25 @@
 - Added JRuby 2.x.x syntax support for Travis CI builds.
 - Refactored common RSpec configurations to RSpec support/kit folder.
 
-# v5.0.0 (2014-07-27)
+# 5.0.0 (2014-07-27)
 
 - Removed Rails 4.0.x support.
 - Updated to Prawn 1.2.x (see [CHANGELOG](https://github.com/prawnpdf/prawn/wiki/CHANGELOG#prawn-121--20140727) for
   details) and added prawn-table support.
 
-# v4.2.0 (2014-07-06)
+# 4.2.0 (2014-07-06)
 
 - Fixed bug with Prawn table support missing (not being required).
 - Added Code Climate test coverage support.
 - Updated to Ruby 2.1.2.
 - Updated gem-public.pem for gem install certificate chain.
 
-# v4.1.0 (2014-04-16)
+# 4.1.0 (2014-04-16)
 
 - Updated RSpec helper to disable GC for all specs in order to improve performance.
 - Added Rails 4.1.x support.
 
-# v4.0.0 (2014-03-19)
+# 4.0.0 (2014-03-19)
 
 - Updated to Prawn 1.0.0.
 - Updated to MRI 2.1.1.
@@ -209,12 +209,12 @@
 - Added Gemnasium support.
 - Added Coveralls support.
 
-# v3.2.0 (2014-02-15)
+# 3.2.0 (2014-02-15)
 
 - Updated gemspec homepage URL to use GitHub project URL.
 - Added JRuby and Rubinius VM support.
 
-# v3.1.0 (2013-12-29)
+# 3.1.0 (2013-12-29)
 
 - Fixed Ruby Gem certificate requirements for package building.
 - Fixed RSpec deprecation warnings for treating metadata symbol keys as true values.
@@ -226,7 +226,7 @@
 - Updated to Ruby 2.1.0.
 - Added Pry plugin requirements to RSpec spec helper.
 
-# v3.0.0 (2013-08-12)
+# 3.0.0 (2013-08-12)
 
 - Upgraded to Rails 4.0.0.
 - Treat symbols and true values by default when running RSpec specs.
@@ -240,7 +240,7 @@
 - Ignore the signing of a gem when building in a Travis CI environment.
 - Added dummy documents controller, views, and routes for testing purposes.
 
-# v2.0.0 (2013-03-24)
+# 2.0.0 (2013-03-24)
 
 - Upgraded to Ruby 2.0.0.
 - Converted/detailed the CONTRIBUTING guidelines per GitHub requirements.
@@ -252,6 +252,6 @@
 - Added 'tmp' directory to .gitignore.
 - Cleaned up requirement path syntax.
 
-# v1.0.0 (2012-05-26)
+# 1.0.0 (2012-05-26)
 
 - Initial version.
