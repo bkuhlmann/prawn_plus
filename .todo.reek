@@ -1,6 +1,0 @@
----
-UtilityFunction:
-  exclude:
-  - PrawnPlus::TemplateHandlers::Prawn#call
-IrresponsibleModule:
-  enabled: false
