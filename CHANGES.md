@@ -1,3 +1,11 @@
+# 8.2.0 (2018-07-01)
+
+- Updated Semantic Versioning links to be HTTPS.
+- Updated project changes to use semantic versions.
+- Updated to Capybara 3.1.0.
+- Updated to Reek 5.0.
+- Updated to Rubocop 0.57.0.
+
 # 8.1.0 (2018-04-01)
 
 - Fixed Rubocop Style/MissingElse issues.
