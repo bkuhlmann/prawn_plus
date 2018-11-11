@@ -2,7 +2,7 @@
 
 require "rails_helper"
 
-RSpec.describe "Rails Requests" do
+RSpec.describe "Rails Requests", type: :request do
   include Dummy::Application.routes.url_helpers
   include Capybara::DSL
 
