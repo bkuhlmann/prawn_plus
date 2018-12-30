@@ -2,10 +2,10 @@
 
 require "bundler/setup"
 require "simplecov"
-SimpleCov.start
-
 require "pry"
 require "pry-byebug"
+
+SimpleCov.start
 
 Dir[File.join(File.dirname(__FILE__), "support/shared_contexts/**/*.rb")].each do |file|
   require file
