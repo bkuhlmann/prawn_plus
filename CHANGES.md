@@ -1,3 +1,23 @@
+# 9.0.0 (2019-01-01)
+
+- Fixed Circle CI cache for Ruby version.
+- Fixed Markdown ordered list numbering.
+- Fixed Rubocop RSpec/DescribeClass issue.
+- Added Circle CI Bundler cache.
+- Added Rubocop RSpec gem.
+- Updated Circle CI Code Climate test reporting.
+- Updated to Contributor Covenant Code of Conduct 1.4.1.
+- Updated to Gemsmith 13.0.0.
+- Updated to Git Cop 3.0.0.
+- Updated to RSpec 3.8.0.
+- Updated to Rubocop 0.58.0.
+- Updated to Rubocop 0.60.0.
+- Updated to Rubocop 0.61.x.
+- Updated to Rubocop 0.62.0.
+- Updated to Ruby 2.5.2.
+- Updated to Ruby 2.5.3.
+- Updated to Ruby 2.6.0.
+
 # 8.2.0 (2018-07-01)
 
 - Updated Semantic Versioning links to be HTTPS.
