@@ -1,3 +1,11 @@
+# 9.1.0 (2019-04-01)
+
+- Fixed Rubocop Style/MethodCallWithArgsParentheses issues.
+- Updated to Rubocop 0.63.0.
+- Updated to Ruby 2.6.1.
+- Updated to Ruby 2.6.2.
+- Removed RSpec standard output/error suppression.
+
 # 9.0.0 (2019-01-01)
 
 - Fixed Circle CI cache for Ruby version.
