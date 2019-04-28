@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="prawn_plus.png" alt="Prawn+ Icon"/>
+</p>
+
 # Prawn+
 
 [![Gem Version](https://badge.fury.io/rb/prawn_plus.svg)](http://badge.fury.io/rb/prawn_plus)
