@@ -1,3 +1,14 @@
+# 9.1.2 (2019-06-01)
+
+- Fixed RSpec/ContextWording issues.
+- Updated contributing documentation.
+- Updated to Gemsmith 13.5.0.
+- Updated to Git Cop 3.5.0.
+- Updated to Reek 5.4.0.
+- Updated to Rubocop 0.69.0.
+- Updated to Rubocop Performance 1.3.0.
+- Updated to Rubocop RSpec 1.33.0.
+
 # 9.1.1 (2019-05-01)
 
 - Added Rubocop Performance gem.
