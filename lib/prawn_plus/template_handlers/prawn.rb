@@ -5,7 +5,7 @@ module PrawnPlus
     # Renderer for a Prawn template. Assumes the template will reference a _pdf_ (a.k.a.
     # Prawn:Document) instance.
     class Prawn
-      def call template
+      def call template, _source
         "pdf = ::Prawn::Document.new;" + template.source + ";pdf.render;"
       end
     end
