@@ -1,3 +1,10 @@
+# 9.1.3 (2019-09-01)
+
+- Updated to Rubocop 0.73.0.
+- Updated to Rubocop Performance 1.4.0.
+- Updated to Ruby 2.6.4.
+- Refactored RSpec helper support requirements.
+
 # 9.1.2 (2019-06-01)
 
 - Fixed RSpec/ContextWording issues.
