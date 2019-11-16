@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Brooke Kuhlmann"]
   spec.email = ["brooke@alchemists.io"]
   spec.homepage = "https://github.com/bkuhlmann/prawn_plus"
-  spec.summary = "Enhances default Prawn PDF functionality."
+  spec.summary = "A Rails renderer for Prawn PDFs."
   spec.license = "Apache-2.0"
 
   spec.metadata = {
