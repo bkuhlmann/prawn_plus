@@ -8,6 +8,15 @@ jobs:
           BUNDLE_JOBS: 3
           BUNDLE_RETRY: 3
           BUNDLE_PATH: vendor/bundle
+          PGHOST: localhost
+          PGUSER: test
+          RAILS_ENV: test
+      - image: postgres:12.1
+        environment:
+          POSTGRES_USER: test
+          POSTGRES_DB: dummy_test
+          POSTGRES_PASSWORD: ""
+
     steps:
       - checkout
 
