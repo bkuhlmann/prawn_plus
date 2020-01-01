@@ -1,3 +1,22 @@
+# 10.0.0 (2020-01-01)
+
+- Fixed SimpleCov setup in RSpec spec helper.
+- Added PostgreSQL 12.1.0 image to Circle CI.
+- Added gem console.
+- Added setup script.
+- Updated Pry development dependencies.
+- Updated gem summary.
+- Updated to Gemsmith 14.0.0
+- Updated to Git Cop 4.0.0
+- Updated to Rails 6.0.0.
+- Updated to Rubocop 0.77.0.
+- Updated to Rubocop 0.78.0.
+- Updated to Rubocop Performance 1.5.0.
+- Updated to Rubocop RSpec 1.37.0.
+- Updated to Rubocop Rake 0.5.0.
+- Updated to Ruby 2.7.0.
+- Updated to SimpleCov 0.17.0.
+
 # 9.1.4 (2019-11-01)
 
 - Added Rubocop Rake support.
