@@ -37,8 +37,8 @@
 
 ## Requirements
 
-1. [Ruby 2.6.x](https://www.ruby-lang.org).
-1. [Ruby on Rails 5.x.x](http://rubyonrails.org).
+1. [Ruby 2.7.x](https://www.ruby-lang.org).
+1. [Ruby on Rails 6.0.x](http://rubyonrails.org).
 1. [Prawn](https://github.com/prawnpdf/prawn).
 
 ## Setup
