@@ -3,8 +3,8 @@
 require_relative "lib/prawn_plus/identity"
 
 Gem::Specification.new do |spec|
-  spec.name = PrawnPlus::Identity.name
-  spec.version = PrawnPlus::Identity.version
+  spec.name = PrawnPlus::Identity::NAME
+  spec.version = PrawnPlus::Identity::VERSION
   spec.platform = Gem::Platform::RUBY
   spec.authors = ["Brooke Kuhlmann"]
   spec.email = ["brooke@alchemists.io"]

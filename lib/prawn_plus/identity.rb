@@ -3,20 +3,9 @@
 module PrawnPlus
   # Gem identity information.
   module Identity
-    def self.name
-      "prawn_plus"
-    end
-
-    def self.label
-      "Prawn+"
-    end
-
-    def self.version
-      "10.0.0"
-    end
-
-    def self.version_label
-      "#{label} #{version}"
-    end
+    NAME = "prawn_plus"
+    LABEL = "Prawn+"
+    VERSION = "10.0.0"
+    VERSION_LABEL = "#{LABEL} #{VERSION}"
   end
 end
