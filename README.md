@@ -41,13 +41,27 @@
 
 ## Setup
 
-Type the following to install:
+### Production
+
+To install, run:
 
     gem install prawn_plus
 
 Add the following to your Gemfile:
 
     gem "prawn_plus"
+
+### Development
+
+To contribute, run:
+
+    git clone https://github.com/bkuhlmann/prawn_plus.git
+    cd prawn_plus
+    bin/setup
+
+You can also use the IRB console for direct access to all objects:
+
+    bin/console
 
 ## Usage
 
