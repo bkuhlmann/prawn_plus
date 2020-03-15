@@ -5,8 +5,6 @@
 # Prawn+
 
 [![Gem Version](https://badge.fury.io/rb/prawn_plus.svg)](http://badge.fury.io/rb/prawn_plus)
-[![Code Climate Maintainability](https://api.codeclimate.com/v1/badges/11437f0567f0cd96d04e/maintainability)](https://codeclimate.com/github/bkuhlmann/prawn_plus/maintainability)
-[![Code Climate Test Coverage](https://api.codeclimate.com/v1/badges/11437f0567f0cd96d04e/test_coverage)](https://codeclimate.com/github/bkuhlmann/prawn_plus/test_coverage)
 [![Circle CI Status](https://circleci.com/gh/bkuhlmann/prawn_plus.svg?style=svg)](https://circleci.com/gh/bkuhlmann/prawn_plus)
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
