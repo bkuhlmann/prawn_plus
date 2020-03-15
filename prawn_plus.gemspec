@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
-$LOAD_PATH.append File.expand_path("lib", __dir__)
-require "prawn_plus/identity"
+require_relative "lib/prawn_plus/identity"
 
 Gem::Specification.new do |spec|
   spec.name = PrawnPlus::Identity.name
