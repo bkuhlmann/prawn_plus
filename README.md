@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="prawn_plus.png" alt="Prawn+ Icon"/>
+  <img src="https://www.alchemists.io/images/projects/prawn_plus/icon.png" alt="Prawn+ Icon"/>
 </p>
 
 # Prawn+
@@ -84,7 +84,7 @@ might look like this:
 
 ...which would render the following output:
 
-[![Basic Example](https://github.com/bkuhlmann/prawn_plus/raw/master/doc/examples/basic.png)](https://github.com/bkuhlmann/prawn_plus)
+[![Basic Example](https://www.alchemists.io/images/projects/prawn_plus/screenshots/basic.png)](https://github.com/bkuhlmann/prawn_plus)
 
 You could also render a more complex PDF with tabular information, for example:
 
@@ -110,7 +110,7 @@ You could also render a more complex PDF with tabular information, for example:
 
 ...which would render the following output:
 
-[![Complex Example](https://github.com/bkuhlmann/prawn_plus/raw/master/doc/examples/complex.png)](https://github.com/bkuhlmann/prawn_plus)
+[![Complex Example](https://www.alchemists.io/images/projects/prawn_plus/screenshots/complex.png)](https://github.com/bkuhlmann/prawn_plus)
 
 *NOTE: The `pdf` object must always be referenced when making using of the Prawn syntax - it is
 initialized for you as a Prawn::Document instance.*
