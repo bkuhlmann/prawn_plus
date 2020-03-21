@@ -1,0 +1,176 @@
+:toc: macro
+:toclevels: 5
+:figure-caption!:
+
+= Prawn+
+
+[link=http://badge.fury.io/rb/prawn_plus]
+image::https://badge.fury.io/rb/prawn_plus.svg[Gem Version]
+[link=https://circleci.com/gh/bkuhlmann/prawn_plus]
+image::https://circleci.com/gh/bkuhlmann/prawn_plus.svg?style=svg[Circle CI Status]
+
+toc::[]
+
+== Features
+
+* Loads the https://github.com/prawnpdf/prawn[Prawn] gem by default (no Gemfile entry necessary).
+* Registers PDF as a MIME type.
+* Registers a template handler for rendering "`.prawn`" template view files.
+
+== Requirements
+
+. https://www.ruby-lang.org[Ruby 2.7.x].
+. http://rubyonrails.org[Ruby on Rails 6.0.x].
+. https://github.com/prawnpdf/prawn[Prawn].
+
+== Setup
+
+=== Production
+
+To install, run:
+
+[source,bash]
+----
+gem install prawn_plus
+----
+
+Add the following to your Gemfile:
+
+[source,ruby]
+----
+gem "prawn_plus"
+----
+
+=== Development
+
+To contribute, run:
+
+[source,bash]
+----
+git clone https://github.com/bkuhlmann/prawn_plus.git
+cd prawn_plus
+bin/setup
+----
+
+You can also use the IRB console for direct access to all objects:
+
+[source,bash]
+----
+bin/console
+----
+
+== Usage
+
+=== Views
+
+Within your views you can craft Prawn templates using Ruby code. For example, assuming there are
+document resources, then the following structure might exist:
+
+....
+/views/documents/show.html.slim
+/views/documents/show.pdf.prawn
+....
+
+The `show.html.slim` could have a link to the PDF download. Example:
+
+....
+= link_to "PDF Download", action: "show", id: @document.id, format: "pdf"
+....
+
+The `show.pdf.prawn` file would contain the Prawn syntax for crafting the PDF. A simple example
+might look like this:
+
+[source,ruby]
+----
+pdf.text "Hello, I'm a PDF!"
+----
+
+...which would render the following output:
+
+image::https://www.alchemists.io/images/projects/prawn_plus/screenshots/basic.png[Basic Example]
+
+You could also render a more complex PDF with tabular information, for example:
+
+[source,ruby]
+----
+pdf.text "Metals"
+pdf.move_down 10
+pdf.font_size = 10
+
+data = [
+  ["Name", "Atomic Number", "Price"],
+  ["Mercury", "80", number_to_currency(10)],
+  ["Platinum", "78", number_to_currency(25)],
+  ["Titanium", "22", number_to_currency(50)]
+]
+
+pdf.table data, header: true, column_widths: [100, 50, 50], row_colors: ["FFFFFF", "E5ECF9"] do
+  columns(0).align = :left
+  columns(1..2).align = :right
+  row(0).text_color = "FFFFFF"
+  row(0).background_color = "000000"
+  row(0).columns(0..2).font_style = :bold
+  row(0).columns(0..2).align = :center
+end
+----
+
+...which would render the following output:
+
+image::https://www.alchemists.io/images/projects/prawn_plus/screenshots/complex.png[Complex Example]
+
+_NOTE: The `pdf` object must always be referenced when making using of the Prawn syntax - it is
+initialized for you as a Prawn::Document instance._
+
+=== Controllers
+
+Within your controller, only the `respond_to` method is required. Example:
+
+[source,ruby]
+----
+class DocumentsController < ApplicationController
+  respond_to :pdf
+
+  def show
+  end
+end
+----
+
+That’s it!
+
+== Tests
+
+To test, run:
+
+[source,bash]
+----
+bundle exec rake
+----
+
+== Versioning
+
+Read link:https://semver.org[Semantic Versioning] for details. Briefly, it means:
+
+* Major (X.y.z) - Incremented for any backwards incompatible public API changes.
+* Minor (x.Y.z) - Incremented for new, backwards compatible, public API enhancements/fixes.
+* Patch (x.y.Z) - Incremented for small, backwards compatible, bug fixes.
+
+== Code of Conduct
+
+Please note that this project is released with a link:CODE_OF_CONDUCT.adoc[CODE OF CONDUCT]. By
+participating in this project you agree to abide by its terms.
+
+== Contributions
+
+Read link:CONTRIBUTING.adoc[CONTRIBUTING] for details.
+
+== License
+
+Read link:LICENSE.adoc[LICENSE] for details.
+
+== History
+
+Read link:CHANGES.adoc[CHANGES] for details.
+
+== Credits
+
+Engineered by link:https://www.alchemists.io/team/brooke_kuhlmann.html[Brooke Kuhlmann].
