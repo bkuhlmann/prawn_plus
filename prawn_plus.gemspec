@@ -8,14 +8,15 @@ Gem::Specification.new do |spec|
   spec.platform = Gem::Platform::RUBY
   spec.authors = ["Brooke Kuhlmann"]
   spec.email = ["brooke@alchemists.io"]
-  spec.homepage = "https://github.com/bkuhlmann/prawn_plus"
+  spec.homepage = "https://www.alchemists.io/projects/prawn_plus"
   spec.summary = "A Rails renderer for Prawn PDFs."
   spec.license = "Apache-2.0"
 
   spec.metadata = {
-    "source_code_uri" => "https://github.com/bkuhlmann/prawn_plus",
-    "changelog_uri" => "https://github.com/bkuhlmann/prawn_plus/blob/master/CHANGES.md",
-    "bug_tracker_uri" => "https://github.com/bkuhlmann/prawn_plus/issues"
+    "bug_tracker_uri" => "https://github.com/bkuhlmann/prawn_plus/issues",
+    "changelog_uri" => "https://www.alchemists.io/projects/prawn_plus/changes.html",
+    "documentation_uri" => "https://www.alchemists.io/projects/prawn_plus",
+    "source_code_uri" => "https://github.com/bkuhlmann/prawn_plus"
   }
 
   spec.signing_key = Gem.default_key_path
