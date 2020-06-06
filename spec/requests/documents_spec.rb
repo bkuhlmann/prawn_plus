@@ -17,6 +17,6 @@ RSpec.describe "Rails Requests", type: :request do
   it "answers a PDF file" do
     visit documents_path
     click_link "PDF"
-    expect(page.response_headers["Content-Type"]).to match(%r(application\/pdf))
+    expect(page.response_headers["Content-Type"]).to match(%r(application/pdf))
   end
 end
