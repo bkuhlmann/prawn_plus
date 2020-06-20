@@ -19,9 +19,9 @@ toc::[]
 
 == Requirements
 
-. https://www.ruby-lang.org[Ruby 2.7.x].
-. http://rubyonrails.org[Ruby on Rails 6.0.x].
-. https://github.com/prawnpdf/prawn[Prawn].
+. https://www.ruby-lang.org[Ruby]
+. https://rubyonrails.org[Ruby on Rails]
+. https://github.com/prawnpdf/prawn[Prawn]
 
 == Setup
 
