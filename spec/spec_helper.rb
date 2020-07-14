@@ -8,7 +8,7 @@ SimpleCov.start { enable_coverage :branch }
 require "pry"
 require "pry-byebug"
 
-Dir[File.join(__dir__, "support", "shared_contexts", "**/*.rb")].each(&method(:require))
+Dir[File.join(__dir__, "support", "shared_contexts", "**/*.rb")].sort.each(&method(:require))
 
 RSpec.configure do |config|
   config.color = true
