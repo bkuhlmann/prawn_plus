@@ -1,5 +1,10 @@
 = Changes
 
+== 10.3.0 (2020-08-06)
+
+- Updated to Prawn 2.3.0
+- Updated to Rubocop 0.89.0
+
 == 10.2.0 (2020-07-22)
 
 * Fixed Rubocop Lint/NonDeterministicRequireOrder issues
