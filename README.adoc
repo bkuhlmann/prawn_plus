@@ -25,8 +25,6 @@ toc::[]
 
 == Setup
 
-=== Production
-
 To install, run:
 
 [source,bash]
@@ -39,24 +37,6 @@ Add the following to your Gemfile:
 [source,ruby]
 ----
 gem "prawn_plus"
-----
-
-=== Development
-
-To contribute, run:
-
-[source,bash]
-----
-git clone https://github.com/bkuhlmann/prawn_plus.git
-cd prawn_plus
-bin/setup
-----
-
-You can also use the IRB console for direct access to all objects:
-
-[source,bash]
-----
-bin/console
 ----
 
 == Usage
@@ -136,6 +116,24 @@ end
 ----
 
 That’s it!
+
+== Development
+
+To contribute, run:
+
+[source,bash]
+----
+git clone https://github.com/bkuhlmann/prawn_plus.git
+cd prawn_plus
+bin/setup
+----
+
+You can also use the IRB console for direct access to all objects:
+
+[source,bash]
+----
+bin/console
+----
 
 == Tests
 
