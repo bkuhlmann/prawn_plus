@@ -6,6 +6,8 @@
 
 [link=http://badge.fury.io/rb/prawn_plus]
 image::https://badge.fury.io/rb/prawn_plus.svg[Gem Version]
+[link=https://www.alchemists.io/projects/code_quality]
+image::https://img.shields.io/badge/code_style-alchemists-brightgreen.svg[Alchemists Style Guide]
 [link=https://circleci.com/gh/bkuhlmann/prawn_plus]
 image::https://circleci.com/gh/bkuhlmann/prawn_plus.svg?style=svg[Circle CI Status]
 
