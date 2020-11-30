@@ -37,6 +37,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "pry-byebug", "~> 3.9"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "reek", "~> 6.0"
+  spec.add_development_dependency "refinements", "~> 7.16"
   spec.add_development_dependency "rspec-rails", "~> 4.0"
   spec.add_development_dependency "rubocop", "~> 1.3"
   spec.add_development_dependency "rubocop-performance", "~> 1.8"
