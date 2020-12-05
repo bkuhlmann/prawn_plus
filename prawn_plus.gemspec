@@ -26,6 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "prawn", "~> 2.3"
   spec.add_dependency "prawn-table", "~> 0.2"
   spec.add_dependency "rails", "~> 6.0"
+  spec.add_development_dependency "amazing_print", "~> 1.2"
   spec.add_development_dependency "bundler-audit", "~> 0.7"
   spec.add_development_dependency "bundler-leak", "~> 0.2"
   spec.add_development_dependency "capybara", "~> 3.1"
