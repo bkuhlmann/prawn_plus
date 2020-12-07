@@ -1,4 +1,35 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
+
 gemspec
+
+group :code_quality do
+  gem "bundler-audit", "~> 0.7"
+  gem "bundler-leak", "~> 0.2"
+  gem "git-lint", "~> 1.3"
+  gem "reek", "~> 6.0"
+  gem "rubocop", "~> 1.5"
+  gem "rubocop-performance", "~> 1.9"
+  gem "rubocop-rake", "~> 0.5"
+  gem "rubocop-rspec", "~> 2.0"
+end
+
+group :development do
+  gem "gemsmith", "~> 14.9"
+  gem "guard-rspec", "~> 4.7", require: false
+  gem "rake", "~> 13.0"
+end
+
+group :test do
+  gem "capybara", "~> 3.1"
+  gem "pg", "~> 1.2"
+  gem "rspec-rails", "~> 4.0"
+  gem "simplecov", "~> 0.20"
+end
+
+group :tools do
+  gem "amazing_print", "~> 1.2"
+  gem "pry", "~> 0.13"
+  gem "pry-byebug", "~> 3.9"
+end
