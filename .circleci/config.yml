@@ -12,7 +12,7 @@ jobs:
         environment:
           POSTGRES_USER: test
           POSTGRES_DB: dummy_test
-          POSTGRES_PASSWORD: ""
+          POSTGRES_PASSWORD: test
     steps:
       - checkout
 
