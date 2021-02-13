@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/project
     docker:
-      - image: bkuhlmann/ruby:latest
+      - image: bkuhlmann/alpine-ruby:latest
         environment:
           PGHOST: localhost
           PGUSER: test
