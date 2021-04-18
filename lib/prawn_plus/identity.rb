@@ -5,7 +5,7 @@ module PrawnPlus
   module Identity
     NAME = "prawn_plus"
     LABEL = "Prawn+"
-    VERSION = "11.0.0"
+    VERSION = "11.0.1"
     VERSION_LABEL = "#{LABEL} #{VERSION}"
   end
 end

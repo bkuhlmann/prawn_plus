@@ -1,5 +1,16 @@
 = Changes
 
+== 11.0.1 (2021-04-18)
+
+* Added Circle CI PostgreSQL password - Brooke Kuhlmann
+* Added Ruby garbage collection compaction - Brooke Kuhlmann
+* Updated Code Quality URLs - Brooke Kuhlmann
+* Updated to Circle CI 2.1.0 - Brooke Kuhlmann
+* Updated to Docker Alpine Ruby image - Brooke Kuhlmann
+* Updated to Rubocop 1.10.0 - Brooke Kuhlmann
+* Updated to Rubocop 1.8.0 - Brooke Kuhlmann
+* Updated to Ruby 3.0.1 - Brooke Kuhlmann
+
 == 11.0.0 (2021-01-02)
 
 * Fixed Circle CI configuration for Bundler config path - Brooke Kuhlmann
