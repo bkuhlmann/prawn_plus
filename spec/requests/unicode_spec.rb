@@ -2,7 +2,7 @@
 
 require "rails_helper"
 
-RSpec.describe "Request unicode PDF", type: :request do
+RSpec.describe "/unicode", type: :request do
   include Dummy::Application.routes.url_helpers
   include Capybara::DSL
 
