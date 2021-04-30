@@ -1,5 +1,13 @@
 = Changes
 
+== 11.0.2 (2021-04-29)
+
+* Fixed unicode issues - Alexander Ross
+* Updated request specs to describe routes - Brooke Kuhlmann
+* Removed controller actions since they are pass throughs - Brooke Kuhlmann
+* Removed unicode capybara DSL - Brooke Kuhlmann
+* Refactored temporary directory to use Refinements - Brooke Kuhlmann
+
 == 11.0.1 (2021-04-18)
 
 * Added Circle CI PostgreSQL password - Brooke Kuhlmann
