@@ -1,5 +1,14 @@
 = Changes
 
+== 11.0.3 (2021-08-07)
+
+* Fixed RSpec dummy application issue with Psych bad alias - Brooke Kuhlmann
+* Fixed Rubocop Layout/RedundantLineBreak issues - Brooke Kuhlmann
+* Updated to RSpec Rails 5.0.0 - Brooke Kuhlmann
+* Updated to Rubocop 1.14.0 - Brooke Kuhlmann
+* Updated to Ruby 3.0.2 - Brooke Kuhlmann
+* Removed Bundler Audit - Brooke Kuhlmann
+
 == 11.0.2 (2021-04-29)
 
 * Fixed unicode issues - Alexander Ross
