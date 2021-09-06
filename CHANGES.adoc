@@ -1,5 +1,13 @@
 = Changes
 
+== 11.0.4 (2021-09-05)
+
+* Fixed Rubocop Style/MutableConstant issue - Brooke Kuhlmann
+* Updated README project description - Brooke Kuhlmann
+* Updated Rubocop gem dependencies - Brooke Kuhlmann
+* Updated to Amazing Print 1.3.0 - Brooke Kuhlmann
+* Removed RubyCritic and associated CLI option - Brooke Kuhlmann
+
 == 11.0.3 (2021-08-07)
 
 * Fixed RSpec dummy application issue with Psych bad alias - Brooke Kuhlmann
