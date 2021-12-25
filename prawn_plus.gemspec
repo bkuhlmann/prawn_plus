@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.signing_key = Gem.default_key_path
   spec.cert_chain = [Gem.default_cert_path]
 
-  spec.required_ruby_version = "~> 3.0"
+  spec.required_ruby_version = "~> 3.1"
   spec.add_dependency "prawn", "~> 2.4"
   spec.add_dependency "prawn-table", "~> 0.2"
   spec.add_dependency "rails", "~> 7.0"
