@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata = {
     "bug_tracker_uri" => "https://github.com/bkuhlmann/prawn_plus/issues",
-    "changelog_uri" => "https://www.alchemists.io/projects/prawn_plus/changes.html",
+    "changelog_uri" => "https://www.alchemists.io/projects/prawn_plus/versions",
     "documentation_uri" => "https://www.alchemists.io/projects/prawn_plus",
     "rubygems_mfa_required" => "true",
     "source_code_uri" => "https://github.com/bkuhlmann/prawn_plus"
