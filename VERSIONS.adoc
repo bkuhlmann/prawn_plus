@@ -1,5 +1,29 @@
 = Versions
 
+== 12.0.0 (2022-01-07)
+
+* Fixed Hippocratic license structure - Brooke Kuhlmann
+* Fixed README changes and credits sections - Brooke Kuhlmann
+* Fixed contributing documentation - Brooke Kuhlmann
+* Added Rakefile Bundler gem tasks - Brooke Kuhlmann
+* Added project citation information - Brooke Kuhlmann
+* Updated GitHub issue template - Brooke Kuhlmann
+* Updated README policy section links - Brooke Kuhlmann
+* Updated Rubocop sub-project gem dependencies - Brooke Kuhlmann
+* Updated changes as versions documentation - Brooke Kuhlmann
+* Updated to Amazing Print 1.4.0 - Brooke Kuhlmann
+* Updated to Debug 1.4.0 - Brooke Kuhlmann
+* Updated to Git Lint 3.0.0 - Brooke Kuhlmann
+* Updated to Hippocratic License 3.0.0 - Brooke Kuhlmann
+* Updated to Rails 7.0.0 - Brooke Kuhlmann
+* Updated to Refinements 9.0.0 - Brooke Kuhlmann
+* Updated to Rubocop 1.24.0 - Brooke Kuhlmann
+* Updated to Ruby 3.0.3 - Brooke Kuhlmann
+* Updated to Ruby 3.1.0 - Brooke Kuhlmann
+* Updated to SimpleCov 0.21.2 - Brooke Kuhlmann
+* Removed Gemsmith depenendecy - Brooke Kuhlmann
+* Removed code of conduct and contributing files - Brooke Kuhlmann
+
 == 11.2.0 (2021-11-20)
 
 * Added README community link - Brooke Kuhlmann
