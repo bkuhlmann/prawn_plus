@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "prawn_plus"
-  spec.version = "12.0.0"
+  spec.version = "12.1.0"
   spec.platform = Gem::Platform::RUBY
   spec.authors = ["Brooke Kuhlmann"]
   spec.email = ["brooke@alchemists.io"]
