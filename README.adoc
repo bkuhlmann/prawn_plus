@@ -4,13 +4,6 @@
 
 = Prawn+
 
-[link=http://badge.fury.io/rb/prawn_plus]
-image::https://badge.fury.io/rb/prawn_plus.svg[Gem Version]
-[link=https://www.alchemists.io/projects/code_quality]
-image::https://img.shields.io/badge/code_style-alchemists-brightgreen.svg[Alchemists Style Guide]
-[link=https://circleci.com/gh/bkuhlmann/prawn_plus]
-image::https://circleci.com/gh/bkuhlmann/prawn_plus.svg?style=svg[Circle CI Status]
-
 Prawn+ is a lightweight Rails Engine that wraps the link:https://github.com/prawnpdf/prawn[Prawn]
 PDF generator in order to render PDFs within Rails views. This allows you to build view templates
 which render PDFs using the Prawn syntax.
