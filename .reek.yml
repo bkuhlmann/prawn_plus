@@ -2,5 +2,5 @@ detectors:
   UtilityFunction:
     exclude:
       - PrawnPlus::TemplateHandlers::Prawn#call
-  IrresponsibleModule:
-    enabled: false
+exclude_paths:
+  - spec/support/dummy
