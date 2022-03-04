@@ -3,7 +3,7 @@ message: Please use the following metadata when citing this project in your work
 title: Prawn+
 abstract: A Rails renderer for Prawn PDFs.
 version: 12.2.0
-license: Hippocratic-3.0
+license: Hippocratic-2.1
 date-released: 2022-02-12
 authors:
   - family-names: Kuhlmann
