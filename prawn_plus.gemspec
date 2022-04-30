@@ -13,6 +13,7 @@ Gem::Specification.new do |spec|
     "bug_tracker_uri" => "https://github.com/bkuhlmann/prawn_plus/issues",
     "changelog_uri" => "https://www.alchemists.io/projects/prawn_plus/versions",
     "documentation_uri" => "https://www.alchemists.io/projects/prawn_plus",
+    "funding_uri" => "https://github.com/sponsors/bkuhlmann",
     "label" => "Prawn+",
     "rubygems_mfa_required" => "true",
     "source_code_uri" => "https://github.com/bkuhlmann/prawn_plus"
