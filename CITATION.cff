@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: Please use the following metadata when citing this project in your work.
 title: Prawn+
 abstract: A Rails renderer for Prawn PDFs.
-version: 12.2.3
+version: 12.3.0
 license: Hippocratic-2.1
-date-released: 2022-04-23
+date-released: 2022-05-07
 authors:
   - family-names: Kuhlmann
     given-names: Brooke
