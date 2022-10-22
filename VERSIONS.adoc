@@ -1,5 +1,16 @@
 = Versions
 
+== 12.5.0 (2022-10-22)
+
+* Fixed Rakefile RSpec initialization - Brooke Kuhlmann
+* Fixed SimpleCov Guard interaction - Brooke Kuhlmann
+* Fixed SimpleCov gem requirement to not be required by default - Brooke Kuhlmann
+* Added Circle CI SimpleCov artifacts - Brooke Kuhlmann
+* Updated README sections - Brooke Kuhlmann
+* Updated SimpleCov configuration to use filters and minimum coverage - Brooke Kuhlmann
+* Updated to Caliber 0.16.0 - Brooke Kuhlmann
+* Updated to Refinements 9.7.0 - Brooke Kuhlmann
+
 == 12.4.0 (2022-07-17)
 
 * Updated to Caliber 0.11.0 - Brooke Kuhlmann
