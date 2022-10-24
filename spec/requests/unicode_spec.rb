@@ -2,7 +2,7 @@
 
 require "rails_helper"
 
-RSpec.describe "/unicode", type: :request do
+RSpec.describe "/unicode" do
   describe "#show" do
     it "renders PDF for multiple languages" do
       get unicode_path, headers: {accept: "application/pdf"}

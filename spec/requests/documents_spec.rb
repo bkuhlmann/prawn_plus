@@ -2,7 +2,7 @@
 
 require "rails_helper"
 
-RSpec.describe "/documents", type: :request do
+RSpec.describe "/documents" do
   include Dummy::Application.routes.url_helpers
   include Capybara::DSL
 
