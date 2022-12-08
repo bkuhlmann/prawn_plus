@@ -7,7 +7,7 @@ ENV["RAILS_ROOT"] ||= File.dirname(__FILE__) + "/dummy"
 
 Bundler.require :tools
 
-require "prawn_plus"
 require "irb"
+require "prawn_plus"
 
 IRB.start __FILE__
