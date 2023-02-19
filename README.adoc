@@ -66,7 +66,7 @@ pdf.text "Hello, I'm a PDF!"
 
 ...which would render the following output:
 
-image::https://www.alchemists.io/images/projects/prawn_plus/screenshots/basic.png[Basic Example]
+image::https://alchemists.io/images/projects/prawn_plus/screenshots/basic.png[Basic Example]
 
 You could also render a more complex PDF with tabular information, for example:
 
@@ -95,7 +95,7 @@ end
 
 ...which would render the following output:
 
-image::https://www.alchemists.io/images/projects/prawn_plus/screenshots/complex.png[Complex Example]
+image::https://alchemists.io/images/projects/prawn_plus/screenshots/complex.png[Complex Example]
 
 _NOTE: The `pdf` object must always be referenced when making using of the Prawn syntax - it is
 initialized for you as a Prawn::Document instance._
@@ -143,19 +143,19 @@ To test, run:
 bin/rake
 ----
 
-== link:https://www.alchemists.io/policies/license[License]
+== link:https://alchemists.io/policies/license[License]
 
-== link:https://www.alchemists.io/policies/security[Security]
+== link:https://alchemists.io/policies/security[Security]
 
-== link:https://www.alchemists.io/policies/code_of_conduct[Code of Conduct]
+== link:https://alchemists.io/policies/code_of_conduct[Code of Conduct]
 
-== link:https://www.alchemists.io/policies/contributions[Contributions]
+== link:https://alchemists.io/policies/contributions[Contributions]
 
-== link:https://www.alchemists.io/projects/prawn_plus/versions[Versions]
+== link:https://alchemists.io/projects/prawn_plus/versions[Versions]
 
-== link:https://www.alchemists.io/community[Community]
+== link:https://alchemists.io/community[Community]
 
 == Credits
 
-* Built with link:https://www.alchemists.io/projects/gemsmith[Gemsmith].
-* Engineered by link:https://www.alchemists.io/team/brooke_kuhlmann[Brooke Kuhlmann].
+* Built with link:https://alchemists.io/projects/gemsmith[Gemsmith].
+* Engineered by link:https://alchemists.io/team/brooke_kuhlmann[Brooke Kuhlmann].

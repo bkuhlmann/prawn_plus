@@ -5,14 +5,14 @@ Gem::Specification.new do |spec|
   spec.version = "13.0.1"
   spec.authors = ["Brooke Kuhlmann"]
   spec.email = ["brooke@alchemists.io"]
-  spec.homepage = "https://www.alchemists.io/projects/prawn_plus"
+  spec.homepage = "https://alchemists.io/projects/prawn_plus"
   spec.summary = "A Rails renderer for Prawn PDFs."
   spec.license = "Hippocratic-2.1"
 
   spec.metadata = {
     "bug_tracker_uri" => "https://github.com/bkuhlmann/prawn_plus/issues",
-    "changelog_uri" => "https://www.alchemists.io/projects/prawn_plus/versions",
-    "documentation_uri" => "https://www.alchemists.io/projects/prawn_plus",
+    "changelog_uri" => "https://alchemists.io/projects/prawn_plus/versions",
+    "documentation_uri" => "https://alchemists.io/projects/prawn_plus",
     "funding_uri" => "https://github.com/sponsors/bkuhlmann",
     "label" => "Prawn+",
     "rubygems_mfa_required" => "true",
