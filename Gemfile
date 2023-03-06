@@ -21,7 +21,7 @@ group :test do
   gem "capybara", "~> 3.1"
   gem "guard-rspec", "~> 4.7", require: false
   gem "pg", "~> 1.2"
-  gem "rspec-rails", "~> 5.0"
+  gem "rspec-rails", "~> 6.0"
 end
 
 group :tools do
