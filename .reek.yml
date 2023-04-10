@@ -1,6 +1,9 @@
+exclude_paths:
+  - spec/support/dummy
+
 detectors:
+  LongParameterList:
+    enabled: false
   UtilityFunction:
     exclude:
       - PrawnPlus::TemplateHandlers::Prawn#call
-exclude_paths:
-  - spec/support/dummy
