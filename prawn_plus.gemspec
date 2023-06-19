@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = "prawn_plus"
-  spec.version = "13.0.3"
+  spec.version = "14.0.0"
   spec.authors = ["Brooke Kuhlmann"]
   spec.email = ["brooke@alchemists.io"]
   spec.homepage = "https://alchemists.io/projects/prawn_plus"
