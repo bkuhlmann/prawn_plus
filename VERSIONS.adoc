@@ -1,5 +1,12 @@
 = Versions
 
+== 15.2.0 (2024-03-03)
+
+* 🔼 Updated RuboCop to use XDG local configuration - Brooke Kuhlmann
+* 🔼 Updated to Caliber 0.51.0 - Brooke Kuhlmann
+* 🔼 Updated to Git Lint 7.1.0 - Brooke Kuhlmann
+* 🔼 Updated to Refinements 12.1.0 - Brooke Kuhlmann
+
 == 15.1.0 (2024-02-20)
 
 * ✅ Fixed RuboCop Capybara/ClickLinkOrButtonStyle issue - Brooke Kuhlmann
