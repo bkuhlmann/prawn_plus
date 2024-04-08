@@ -1,2 +1,4 @@
 inherit_gem:
   caliber: config/all.yml
+
+require: rubocop-rspec_rails
