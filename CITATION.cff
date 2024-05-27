@@ -14,5 +14,6 @@ keywords:
  - ruby
  - engine
  - PDF
-repository-code: https://alchemists.io/projects/prawn_plus
+repository-code: https://github.com/bkuhlmann/prawn_plus
 repository-artifact: https://rubygems.org/gems/prawn_plus
+url: https://alchemists.io/projects/prawn_plus
