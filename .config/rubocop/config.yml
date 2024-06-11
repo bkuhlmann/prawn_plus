@@ -2,3 +2,17 @@ inherit_gem:
   caliber: config/all.yml
 
 require: rubocop-rspec_rails
+
+RSpecRails/AvoidSetupHook:
+  Enabled: true
+RSpecRails/HaveHttpStatus:
+  Enabled: true
+RSpecRails/InferredSpecType:
+  Enabled: true
+RSpecRails/MinitestAssertions:
+  Enabled: true
+RSpecRails/NegationBeValid:
+  Enabled: true
+  EnforcedStyle: be_invalid
+RSpecRails/TravelAround:
+  Enabled: true
