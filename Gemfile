@@ -20,7 +20,6 @@ end
 
 group :test do
   gem "capybara", "~> 3.1"
-  gem "guard-rspec", "~> 4.7", require: false
   gem "pg", "~> 1.5"
   gem "rspec-rails", "~> 6.1"
 end
