@@ -1,5 +1,10 @@
 = Versions
 
+== 15.10.0 (2024-11-08)
+
+* 🔼 Updated to Rails 8.0.0 - Brooke Kuhlmann
+* 🔼 Updated to Ruby 3.3.6 - Brooke Kuhlmann
+
 == 15.9.0 (2024-11-05)
 
 * 🔼 Updated to Refinements 12.10.0 - Brooke Kuhlmann
