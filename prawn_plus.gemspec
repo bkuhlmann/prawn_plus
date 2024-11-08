@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.3", "<= 3.4"
   spec.add_dependency "prawn", "~> 2.4"
   spec.add_dependency "prawn-table", "~> 0.2"
-  spec.add_dependency "rails", ">= 7.1", "<= 8.1"
+  spec.add_dependency "rails", "~> 8.0"
   spec.add_dependency "refinements", "~> 12.10"
 
   spec.files = Dir["*.gemspec", "lib/**/*"]
