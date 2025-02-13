@@ -26,7 +26,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "prawn", "~> 2.5"
   spec.add_dependency "prawn-table", "~> 0.2"
   spec.add_dependency "rails", "~> 8.0"
-  spec.add_dependency "refinements", "~> 13.0"
 
   spec.files = Dir["*.gemspec", "lib/**/*"]
   spec.extra_rdoc_files = Dir["README*", "LICENSE*"]
