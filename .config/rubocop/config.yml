@@ -1,7 +1,7 @@
 inherit_gem:
   caliber: config/all.yml
 
-require: rubocop-rspec_rails
+plugins: rubocop-rspec_rails
 
 RSpecRails/AvoidSetupHook:
   Enabled: true
