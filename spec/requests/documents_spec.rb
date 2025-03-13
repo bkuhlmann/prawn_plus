@@ -18,7 +18,7 @@ RSpec.describe "/documents" do
 
   it "answers a PDF file" do
     visit documents_path
-    click_on "PDF"
+    click_link "PDF"
 
     expect(page.response_headers["Content-Type"]).to match(%r(application/pdf))
   end
