@@ -7,7 +7,7 @@ source "https://rubygems.org"
 gemspec
 
 group :quality do
-  gem "caliber", "~> 0.74"
+  gem "caliber", "~> 0.79"
   gem "git-lint", "~> 9.0"
   gem "reek", "~> 6.5", require: false
   gem "rubocop-rspec_rails", "~> 2.30", require: false
